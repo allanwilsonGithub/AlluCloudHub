@@ -1,5 +1,7 @@
 # AlluCloudHub
 
+git clone https://github.com/allanwilsonGithub/AlluCloudHub.git
+
 <p>Commands to start webserver in root dir:<p>
 
 <p>These manual commands are auto run in the Dockerfile in AlluCloudHubDocker</p>
