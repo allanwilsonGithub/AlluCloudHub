@@ -1,7 +1,7 @@
 var all_tags = ['sampo', 'seela', 'beer', 'allan'];
 
 //TODO 1: Gather these image names just by walking through the directory. Node.js time?
-all_images = ['sampo.jpg','beer.jpg','allan.jpg','seela.jpg','seela_sampo.jpg']
+all_images = ['sampo.jpg','beer.jpg','allan.jpg','seela.jpg','seela_sampo.jpg','sampo1.jpg']
 
 //TODO 2: Allow user to add and remove tags to search for.
 
