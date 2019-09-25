@@ -8,7 +8,7 @@ module.exports = {
         filename: 'js/bundle.js'
     },
     devServer: {
-        contentBase: './dist/static'
+        contentBase: './dist'
     },
     plugins: [
         new htmlWebpackPlugin({
