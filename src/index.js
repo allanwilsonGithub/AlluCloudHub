@@ -5,24 +5,28 @@ const RecipeDropdownList = (props) => {
   return (
     <div>
       <select id="recipeSelect">
-          <option value="0">Select recipe:</option>
-          <option value="1">{props.recipes[0].name}</option>
-          <option value="2">{props.recipes[1].name}</option>
-          <option value="3">{props.recipes[2].name}</option>
+          <option value="x">Select a recipe:</option>
+          <option value="0">{props.recipes[0].name}</option>
+          <option value="1">{props.recipes[1].name}</option>
+          <option value="2">{props.recipes[2].name}</option>
       </select>
     </div>
   )
 }
 
 const handleRecipeButtonClick = (props) => {
-      console.log('Clicked')
+      console.log("TODO")
     }
 
 
 const renderRecipe = (props) => {
-        console.log(props)
-        const x = document.getElementById("recipeSelect").value;
-        document.getElementById("recipePlace").innerHTML = x;
+       const x = document.getElementById('recipeSelect');
+       const recipeIndex = x.options[x.selectedIndex].value;
+       if (recipeIndex === "x") {
+         document.getElementById('recipePlace').textContent = "(select a recipe before you click the button)";
+       } else {
+         document.getElementById('recipePlace').textContent = props.recipes[recipeIndex].recipe_text;
+       }
     }
 
 
@@ -35,7 +39,9 @@ const App = () => {
       },
       {
         name: 'Pytti Pannu',
-        recipe_text: 'Fry one garlic clove, Boil 6 tatties (skin on), peel and cube'
+        recipe_text: 'Fry one garlic clove<br>Boil 6 tatties (skin on), peel and cube<br>Fry chicken completely<br>1/2'
+                       + 'tsp curry powder<br>chop nakki<br><br>1/2 tsp paprika powder<br>fry all to get colour<br>'
+                       + 'add 2 raw eggs<br>+ salt<br>'
       },
       {
         name: 'Carbonara',
@@ -48,9 +54,8 @@ const App = () => {
       <div>
         <h1>Cookbook</h1>
         <button type="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
-        <br></br>
         <RecipeDropdownList recipes={recipes} />
-        <button type="button" onClick={renderRecipe({recipes})}>Show Recipe</button>
+        <button type="button" onClick={() => renderRecipe({recipes})}>Show Recipe</button>
         <p id='recipePlace'></p>
 
 
