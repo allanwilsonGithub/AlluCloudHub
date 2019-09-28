@@ -2,10 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 const RecipeDropdownList = (props) => {
-  console.log(props.recipes[1].name)
   return (
     <div>
-      <select>
+      <select id="recipeSelect">
           <option value="0">Select recipe:</option>
           <option value="1">{props.recipes[0].name}</option>
           <option value="2">{props.recipes[1].name}</option>
@@ -14,6 +13,18 @@ const RecipeDropdownList = (props) => {
     </div>
   )
 }
+
+const handleRecipeButtonClick = (props) => {
+      console.log('Clicked')
+    }
+
+
+const renderRecipe = (props) => {
+        console.log(props)
+        const x = document.getElementById("recipeSelect").value;
+        document.getElementById("recipePlace").innerHTML = x;
+    }
+
 
 
 const App = () => {
@@ -36,8 +47,13 @@ const App = () => {
     <div>
       <div>
         <h1>Cookbook</h1>
+        <button type="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
+        <br></br>
         <RecipeDropdownList recipes={recipes} />
-        <button type="button">Add Recipe</button>
+        <button type="button" onClick={renderRecipe({recipes})}>Show Recipe</button>
+        <p id='recipePlace'></p>
+
+
       </div>
       <div>
         <h1>Sports and Hobbies</h1>
