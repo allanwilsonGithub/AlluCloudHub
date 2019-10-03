@@ -1,5 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
+
+
+const handleRecipeButtonClick = (props) => {
+      console.log("TODO")
+    }
+
 
 const RecipeDropdownList = (props) => {
   return (
@@ -13,11 +19,6 @@ const RecipeDropdownList = (props) => {
     </div>
   )
 }
-
-const handleRecipeButtonClick = (props) => {
-      console.log("TODO")
-    }
-
 
 const renderRecipe = (props) => {
        const x = document.getElementById('recipeSelect');
@@ -33,6 +34,18 @@ const renderRecipe = (props) => {
 
 
 const App = () => {
+
+//TODO: make a separate file and import it to get these objects
+
+  const [recipeId, setRecipeId] = useState(1)
+
+  const handleRecipeState = (props) => {
+    renderRecipe({recipes, recipeId})
+    setRecipeId(props.recipeId)
+  }
+
+
+
   const recipes = [
       {
         name: 'Asian Noodle Salad',
@@ -61,8 +74,9 @@ const App = () => {
       <div>
         <h1>Cookbook</h1>
         <button type="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
+
         <RecipeDropdownList recipes={recipes} />
-        <button type="button" onClick={() => renderRecipe({recipes})}>Show Recipe</button>
+        <button type="button" onClick={() => handleRecipeState({recipes, recipeId})}>Show Recipe</button>
         <p id='ingredientsPlace'></p>
         <p id='recipePlace'></p>
 
