@@ -9,60 +9,46 @@ const handleRecipeButtonClick = (props) => {
     }
 
 
-const RecipeDropdownList = (props) => {
-  return (
-    <div>
-      <select id="recipeSelect" class="button">
-          <option value="x">Select a recipe:</option>
-          <option value="0">{props.recipes[0].name}</option>
-          <option value="1">{props.recipes[1].name}</option>
-          <option value="2">{props.recipes[2].name}</option>
-      </select>
-    </div>
-  )
-}
-
-const renderRecipe = (props) => {
-       console.log("props value", props)
-       const x = document.getElementById('recipeSelect');
-       const recipeIndex = x.options[x.selectedIndex].value;
-       if (recipeIndex === "x") {
-         document.getElementById('recipePlace').textContent = "(select a recipe before you click the button)";
-       } else {
-         document.getElementById('ingredientsPlace').innerHTML = props.recipes[recipeIndex].ingredients;
-         document.getElementById('recipePlace').innerHTML = props.recipes[recipeIndex].recipe_text;
-       }
-    }
-
-
-
 const App = () => {
 
-//TODO: make a separate file and import it to get these objects
+  const [recipeId, setRecipeId] = useState(0)
 
-  const [recipeId, setRecipeId] = useState(1)
-
-  const handleRecipeState = (props) => {
-    renderRecipe({recipes, recipeId})
-    setRecipeId(props.recipeId)
+  const handleRecipeState = (id) => {
+    setRecipeId(id)
   }
+
+  const renderRecipe = (props) => {
+       document.getElementById('ingredientsPlace').innerHTML = props.recipes[recipeId].ingredients;
+       document.getElementById('recipePlace').innerHTML = props.recipes[recipeId].recipe_text;
+    }
 
   return (
       <div>
       <div>
         <h1>Cookbook</h1>
-        <button type="button" class="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
+        <button type="button" className="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
 
-        <RecipeDropdownList recipes={recipes} />
-        <button type="button" class="button" onClick={() => handleRecipeState({recipes, recipeId})}>Show Recipe</button>
+        <div>
+            <div>
+              <button className="button" onClick={() => renderRecipe({recipes})}>Render (this should be automatic!)</button>
+              <button className="button" onClick={() => handleRecipeState(0)}>{recipes[0].name}</button>
+              <button className="button" onClick={() => handleRecipeState(1)}>{recipes[1].name}</button>
+              <button className="button" onClick={() => handleRecipeState(2)}>{recipes[2].name}</button>
+            </div>
+        </div>
         <p id='ingredientsPlace'></p>
         <p id='recipePlace'></p>
+
       </div>
+
       <div>
         <h1>Sports and Hobbies</h1>
       </div>
       </div>
+
   )
+
 }
+
 
 ReactDOM.render(<App />, document.getElementById('root'))

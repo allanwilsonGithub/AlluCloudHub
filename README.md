@@ -73,3 +73,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 #222629
 #474B4F
 #6B6E70
+
+<select id="recipeSelect" className="button" >
+          <option value="x">Select a recipe:</option>
+          <option value="0">{props.recipes[0].name}</option>
+          <option value="1">{props.recipes[1].name}</option>
+          <option value="2">{props.recipes[2].name}</option>
+      </select>
+    </div>
