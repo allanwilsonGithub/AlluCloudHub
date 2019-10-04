@@ -11,7 +11,7 @@ const handleRecipeButtonClick = (props) => {
 
 const App = () => {
 
-  const [recipeId, setRecipeId] = useState(0)
+  const [ recipeId, setRecipeId ] = useState(0)
 
   const handleRecipeState = (id) => {
     setRecipeId(id)
@@ -27,17 +27,15 @@ const App = () => {
       <div>
         <h1>Cookbook</h1>
         <button type="button" className="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
-
         <div>
             <div>
-              <button className="button" onClick={() => renderRecipe({recipes})}>Render (this should be automatic!)</button>
               <button className="button" onClick={() => handleRecipeState(0)}>{recipes[0].name}</button>
               <button className="button" onClick={() => handleRecipeState(1)}>{recipes[1].name}</button>
               <button className="button" onClick={() => handleRecipeState(2)}>{recipes[2].name}</button>
             </div>
         </div>
-        <p id='ingredientsPlace'></p>
-        <p id='recipePlace'></p>
+        <pre>{recipes[recipeId].ingredients}</pre>
+        <pre>{recipes[recipeId].recipe_text}</pre>
 
       </div>
 

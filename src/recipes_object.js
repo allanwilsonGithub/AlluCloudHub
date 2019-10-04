@@ -1,22 +1,22 @@
   export const recipes = [
       {
         name: 'Asian Noodle Salad',
-        ingredients: 'Chopped: Spring Onion<br>Chopped: Chinese Cabbage or Lettuce<br>Crushed: Cashew nuts or almonds',
-        recipe_text: 'Mix while heating gently and pour over:<br>Olive Oil     1/2 cup<br>Caster Suger  1/4 cup<br>'
-                        + 'Vinigar       1/4 cup<br>Soy Sauce     2 Tbspns<br><br>Add asian noodles if you can '
+        ingredients: 'Chopped: Spring Onion\nChopped: Chinese Cabbage or Lettuce\nCrushed: Cashew nuts or almonds\n',
+        recipe_text: 'Mix while heating gently and pour over:\nOlive Oil     1/2 cup\nCaster Suger  1/4 cup<\n'
+                        + 'Vinigar       1/4 cup\nSoy Sauce     2 Tbspns\n\nAdd asian noodles if you can '
                         + 'find them'
       },
       {
         name: 'Pytti Pannu',
         ingredients: '',
-        recipe_text: 'Fry one garlic clove<br>Boil 6 tatties (skin on), peel and cube<br>Fry chicken completely<br>1/2'
-                       + 'tsp curry powder<br>chop nakki<br><br>1/2 tsp paprika powder<br>fry all to get colour<br>'
-                       + 'add 2 raw eggs<br>+ salt<br>'
+        recipe_text: 'Fry one garlic clove\nBoil 6 tatties (skin on), peel and cube\nFry chicken completely\n1/2'
+                       + 'tsp curry powder\nchop nakki\n\n1/2 tsp paprika powder\nfry all to get colour\n'
+                       + 'add 2 raw eggs\n+ salt\n'
 
       },
       {
         name: 'Carbonara',
         ingredients: '',
-        recipe_text: 'Panchetta (Italian fine bacon) - or other salty strips of bacon. Maybe 200g?'
+        recipe_text: 'Panchetta (Italian fine bacon) - or other salty strips of bacon\nMaybe 200g?'
       }
   ]
