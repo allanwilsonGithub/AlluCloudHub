@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import {recipes} from './recipes_object'
+import './alluStyle.css';
 
 
 const handleRecipeButtonClick = (props) => {
@@ -11,7 +12,7 @@ const handleRecipeButtonClick = (props) => {
 const RecipeDropdownList = (props) => {
   return (
     <div>
-      <select id="recipeSelect">
+      <select id="recipeSelect" class="button">
           <option value="x">Select a recipe:</option>
           <option value="0">{props.recipes[0].name}</option>
           <option value="1">{props.recipes[1].name}</option>
@@ -47,23 +48,20 @@ const App = () => {
   }
 
   return (
-    <div>
+      <div>
       <div>
         <h1>Cookbook</h1>
-        <button type="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
+        <button type="button" class="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
 
         <RecipeDropdownList recipes={recipes} />
-        <button type="button" onClick={() => handleRecipeState({recipes, recipeId})}>Show Recipe</button>
+        <button type="button" class="button" onClick={() => handleRecipeState({recipes, recipeId})}>Show Recipe</button>
         <p id='ingredientsPlace'></p>
         <p id='recipePlace'></p>
-
-
-
       </div>
       <div>
         <h1>Sports and Hobbies</h1>
       </div>
-    </div>
+      </div>
   )
 }
 
