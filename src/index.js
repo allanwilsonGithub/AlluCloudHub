@@ -17,27 +17,33 @@ const App = () => {
     setRecipeId(id)
   }
 
+const RenderRecipeButtons = (props) => {
+  let i = 0
+  for (i = 0; i < recipes.length; i++) {
+    const newHtml = <button className="button" onClick={() => handleRecipeState(0)}>{recipes[0].name}</button>
+    return newHtml
+  }
+
+}
+
+
   return (
-      <div>
-      <div>
+    <div>
+       <div>
         <h1>Cookbook</h1>
         <button type="button" className="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
-        <div>
             <div>
-              <button className="button" onClick={() => handleRecipeState(0)}>{recipes[0].name}</button>
-              <button className="button" onClick={() => handleRecipeState(1)}>{recipes[1].name}</button>
-              <button className="button" onClick={() => handleRecipeState(2)}>{recipes[2].name}</button>
+              <RenderRecipeButtons />
             </div>
         </div>
+
         <pre>{recipes[recipeId].ingredients}</pre>
         <pre>{recipes[recipeId].recipe_text}</pre>
-
-      </div>
 
       <div>
         <h1>Sports and Hobbies</h1>
       </div>
-      </div>
+    </div>
 
   )
 
