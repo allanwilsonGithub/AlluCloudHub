@@ -17,11 +17,6 @@ const App = () => {
     setRecipeId(id)
   }
 
-  const renderRecipe = (props) => {
-       document.getElementById('ingredientsPlace').innerHTML = props.recipes[recipeId].ingredients;
-       document.getElementById('recipePlace').innerHTML = props.recipes[recipeId].recipe_text;
-    }
-
   return (
       <div>
       <div>
