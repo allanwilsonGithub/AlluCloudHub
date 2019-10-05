@@ -18,14 +18,8 @@ const App = () => {
   }
 
 const RenderRecipeButtons = (props) => {
-  let i = 0
-  for (i = 0; i < recipes.length; i++) {
-    const newHtml = <button className="button" onClick={() => handleRecipeState(0)}>{recipes[0].name}</button>
-    return newHtml
-  }
-
+  return recipes.map((recipe, index) => <button key={index} className="button" onClick={() => handleRecipeState(2)}>{recipes[2].name}{index}</button>)
 }
-
 
   return (
     <div>
@@ -34,6 +28,8 @@ const RenderRecipeButtons = (props) => {
         <button type="button" className="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
             <div>
               <RenderRecipeButtons />
+
+
             </div>
         </div>
 
