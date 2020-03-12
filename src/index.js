@@ -39,6 +39,9 @@ const RenderRecipeButtons = (props) => {
       <div>
         <h1>Sports and Hobbies</h1>
       </div>
+      <div>
+        <h1>Other</h1>
+      </div>
     </div>
 
   )
