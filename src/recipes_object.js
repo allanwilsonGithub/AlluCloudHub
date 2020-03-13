@@ -17,9 +17,13 @@
 
       },
       {
-        name: 'Lammingtons',
-        ingredients: '',
-        recipe_text: '',
+        name: 'Pippuripihvi',
+        ingredients: 'Baby carrots\n2 steaks (sisafile) 150g each\npotatoes\npippurimix\nveg oil\ncream (kuohokerma)\n'
+                      + 'cremebonjour Pepper flavour\nsalt\ndragon/tarragon\nmargarine',
+        recipe_text: 'Roast potatoes in oven (with veg oil) for 45 mins at 200oC\nSteaks get rolled in peppermix'
+                      + 'Put in hot oil/butter in frying pan till blood seeps through (medium heat)\n'
+                      + 'Take out steaks and into pan put 1dl cream and about 2 dls of cremebonjour\n'
+                      + 'heat till the cream is thick\nCarrots.. about 10 mins in boiling water\ndrain and put salt, dragon and margarine on carrots',
         recipe_image: ''
 
       },
