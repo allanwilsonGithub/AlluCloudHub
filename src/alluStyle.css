@@ -7,6 +7,10 @@ h1 {
   text-align: center;
 }
 
+.recipe_text {
+  color: #6B6E70;
+}
+
 .recipe_heading {
   color: #61892F;
   font-family: verdana;
@@ -32,6 +36,18 @@ pre {
   cursor: pointer;
 }
 
+.button2 {
+  background-color: #222629;
+  border: 1;
+  color:  #61892F;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 select {
   color: #61892F;

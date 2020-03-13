@@ -27,6 +27,6 @@
         name: 'Carbonara',
         ingredients: '',
         recipe_text: 'Panchetta (Italian fine bacon) - or other salty strips of bacon\nMaybe 200g?',
-        recipe_image: './media/porkanakakku.jpg'
+        recipe_image: '0'
       }
   ]

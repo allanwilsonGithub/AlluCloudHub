@@ -8,6 +8,15 @@ const handleRecipeButtonClick = (props) => {
       console.log("TODO")
     }
 
+const addLineBreaks = string =>
+  string.split('\n').map((text, index) => (
+    <React.Fragment key={`${text}-${index}`}>
+      {text}
+      <br />
+    </React.Fragment>
+  ));
+
+
 
 const App = () => {
 
@@ -23,14 +32,15 @@ const RenderRecipeButtons = ( {recipes} ) => {
 
 const RenderRecipe = ( {recipes} ) => {
   console.log(recipes[recipeId].recipe_image)
-  const image = require('./media/porkanakakku.jpg')
-  //const image1 = require(recipes[recipeId].recipe_image)
+  const image_porkanakakku = require('./media/porkanakakku.jpg')
+  const imageObj =
+      {"0": image_porkanakakku}
   return (
           <div>
              <p className="recipe_heading">{recipes[recipeId].name}</p>
-             <p>{recipes[recipeId].ingredients}</p>
-             <p>{recipes[recipeId].recipe_text}</p>
-             <img src={image} alt='' />
+             <p className="recipe_text">{addLineBreaks(recipes[recipeId].ingredients)}</p>
+             <p className="recipe_text">{addLineBreaks(recipes[recipeId].recipe_text)}</p>
+             <img src={imageObj[recipes[recipeId].recipe_image]} alt='' />
           </div>
   )}
 
@@ -38,7 +48,7 @@ const RenderRecipe = ( {recipes} ) => {
     <div>
        <div>
         <h1>Cookbook</h1>
-        <button type="button" className="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
+        <button type="button" className="button2" onClick={handleRecipeButtonClick}>Add Recipe</button>
             <div>
               <RenderRecipeButtons recipes={recipes}/>
               <RenderRecipe recipes={recipes}/>
