@@ -17,9 +17,22 @@ const App = () => {
     setRecipeId(id)
   }
 
-const RenderRecipeButtons = (props) => {
-  return recipes.map((recipe, index) => <button key={index} className="button" onClick={() => handleRecipeState(2)}>{recipes[2].name}{index}</button>)
+const RenderRecipeButtons = ( {recipes} ) => {
+  return recipes.map((recipe, index) => <button key={index} className="button" onClick={() => handleRecipeState(index)}>{recipes[index].name}</button>)
 }
+
+const RenderRecipe = ( {recipes} ) => {
+  console.log(recipes[recipeId].recipe_image)
+  const image = require('./media/porkanakakku.jpg')
+  //const image1 = require(recipes[recipeId].recipe_image)
+  return (
+          <div>
+             <p className="recipe_heading">{recipes[recipeId].name}</p>
+             <p>{recipes[recipeId].ingredients}</p>
+             <p>{recipes[recipeId].recipe_text}</p>
+             <img src={image} alt='' />
+          </div>
+  )}
 
   return (
     <div>
@@ -27,21 +40,11 @@ const RenderRecipeButtons = (props) => {
         <h1>Cookbook</h1>
         <button type="button" className="button" onClick={handleRecipeButtonClick}>Add Recipe</button>
             <div>
-              <RenderRecipeButtons />
-
+              <RenderRecipeButtons recipes={recipes}/>
+              <RenderRecipe recipes={recipes}/>
 
             </div>
         </div>
-
-        <pre>{recipes[recipeId].ingredients}</pre>
-        <pre>{recipes[recipeId].recipe_text}</pre>
-
-      <div>
-        <h1>Sports and Hobbies</h1>
-      </div>
-      <div>
-        <h1>Other</h1>
-      </div>
     </div>
 
   )

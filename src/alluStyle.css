@@ -7,6 +7,12 @@ h1 {
   text-align: center;
 }
 
+.recipe_heading {
+  color: #61892F;
+  font-family: verdana;
+  font-size: 30px;
+}
+
 pre {
   color: #6B6E70;
   font-family: verdana;
