@@ -21,8 +21,8 @@ const addLineBreaks = string =>
 const App = () => {
 
   const [ recipeId, setRecipeId ] = useState(0)
-
   const [activeRoute, setActiveRoute] = useState(null)
+  const [activeMunro, setActiveMunro] = useState(null)
 
   const handleRecipeState = (id) => {
     setRecipeId(id)
@@ -59,7 +59,7 @@ const RenderRecipe = ( {recipes} ) => {
             </div>
         </div>
         <div>
-        <DisplayMap activeRoute={activeRoute} setActiveRoute={setActiveRoute}/>
+        <DisplayMap activeRoute={activeRoute} setActiveRoute={setActiveRoute} activeMunro={activeMunro} setActiveMunro={setActiveMunro} />
         </div>
      </div>
   )
