@@ -1,0 +1,30 @@
+{
+  "walkingRoutes": [
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 1,
+        "NAME": "Kaitalahden lintutorni, Hanikka",
+        "DESCRIPTION": "Beach, cycle path, loooong board walk, birdtower",
+        "URL": "https://www.strava.com/activities/3293826692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.138041, 24.691416]
+      }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 2,
+        "NAME": "Liessaari, Lohja",
+        "DESCRIPTION": "Well marked trail. Beautiful views. Swimming beach",
+        "URL": "https://www.strava.com/activities/3320877606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.243579, 24.026089]
+      }
+    }
+  ]
+}

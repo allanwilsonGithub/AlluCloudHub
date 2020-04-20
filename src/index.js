@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import {recipes} from './recipes_object'
 import './alluStyle.css'
-import { Map, Marker, Popup, TileLayer } from "react-leaflet";
-import { Icon } from "leaflet";
-
+import DisplayMap from "./components/alluMap"
 
 const handleRecipeButtonClick = (props) => {
       console.log("TODO")
@@ -23,6 +21,8 @@ const addLineBreaks = string =>
 const App = () => {
 
   const [ recipeId, setRecipeId ] = useState(0)
+
+  const [activeRoute, setActiveRoute] = useState(null)
 
   const handleRecipeState = (id) => {
     setRecipeId(id)
@@ -58,24 +58,10 @@ const RenderRecipe = ( {recipes} ) => {
 
             </div>
         </div>
-
-
-        <link
-        rel="stylesheet"
-        href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-        crossorigin=""
-        />
         <div>
-        <Map center={[60.199550, 24.696819]} zoom={12}>
-          <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          />
-        </Map>
+        <DisplayMap activeRoute={activeRoute} setActiveRoute={setActiveRoute}/>
         </div>
-    </div>
-
+     </div>
   )
 
 }
