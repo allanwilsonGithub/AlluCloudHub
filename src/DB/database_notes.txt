@@ -1,0 +1,26 @@
+CREATE DATABASE alluCloud
+CREATE SCHEMA map_data;
+CREATE TABLE map_data.interesting_places (
+  ID           integer     UNIQUE,
+  type         varchar(40),
+  name         varchar(40) UNIQUE,
+  description  varchar(80),
+  URL          varchar(80),
+  LAT          decimal,
+  LON          decimal
+  )
+
+INSERT INTO map_data.interesting_places
+(ID, type, name, description, URL, LAT, LON)
+VALUES
+(1, 'walking_route', 'Kaitalahden lintutorni, Hanikka', 'Beach, cycle path, loooong board walk, birdtower', 'https://www.strava.com/activities/3293826692', 60.138041, 24.691416);
+
+INSERT INTO map_data.interesting_places
+(ID, type, name, description, URL, LAT, LON)
+VALUES
+(2, 'walking_route', 'Liessaari, Lohja', 'Well marked trail. Beautiful views. Swimming beach', 'https://www.strava.com/activities/3320877606', 60.243579, 24.026089);
+
+INSERT INTO map_data.interesting_places
+(ID, type, name, description, URL, LAT, LON)
+VALUES
+(3, 'walking_route', 'Luuki', 'Forest paradise', 'https://www.strava.com/activities/3203552187', 60.321063, 24.671198);
