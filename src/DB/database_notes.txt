@@ -1,3 +1,5 @@
+postgres/alluCloud
+
 CREATE DATABASE alluCloud
 CREATE SCHEMA map_data;
 CREATE TABLE map_data.interesting_places (
