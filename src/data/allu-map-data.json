@@ -25,6 +25,19 @@
         "type": "Point",
         "coordinates": [60.243579, 24.026089]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 3,
+        "NAME": "Sorlampi, Nuuksio",
+        "DESCRIPTION": "5km luontopolku. Cave. Hiidenkirnut",
+        "URL": "https://www.strava.com/activities/3350895787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.258494, 24.603675]
+      }
     }
   ]
 }
