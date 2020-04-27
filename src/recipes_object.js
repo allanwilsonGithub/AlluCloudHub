@@ -54,12 +54,18 @@
                       + 'Season to taste with salt and pepper.\nMakes 6 portions\nSuitable for freezing',
         recipe_image: ''
       },
-            {
+      {
         name: 'Makaroni Laatikko',
         ingredients: '400g mince\nvege stock cube\n5dls dry macaroni\n1tsp rakuna\n2 tsps basilika\n1/2 tsp black pepper\n2 peeled and grated carrots',
         recipe_text: 'Fry mince\nBoil water in a pan\nadd vege stock cube\nadd dry macaroni\ncook for 10 mins\nAdd to mince: 	rakuna, 2 tsps basilika, 1/2 tsp black pepper, 2 peeled and grated carrots\n'
                       + 'Drain pasta, put back in pot,add mince mix\noven at 175oC\ngrease cassarole dish with oil. Add macaroni and mince\n\nIn BOWL\nmix 5 dls milk + 2 raw eggs'
                       + '+ 1 tblspn sugar + tsp white pepper\npour over mince / macaroni\ngrate cheese and sprinkle over mix\nsprinkle oregano\nput low in oven self for 1 hour',
         recipe_image: ''
+      },
+      {
+        name: 'Smoked Paprika Chicken',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '2'
       }
 ]
