@@ -38,6 +38,45 @@
         "type": "Point",
         "coordinates": [60.258494, 24.603675]
       }
-    }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 3,
+        "NAME": "Sorlampi, Nuuksio",
+        "DESCRIPTION": "5km luontopolku. Cave. Hiidenkirnut",
+        "URL": "https://www.strava.com/activities/3350895787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.258494, 24.603675]
+      }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 4,
+        "NAME": "Iso Holma, Nuuksio",
+        "DESCRIPTION": "3.5km walk to idylic campsite. Firewood and toilet there",
+        "URL": "https://www.strava.com/activities/3386829163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.311786, 24.487986]
+      },
+      {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 5,
+        "NAME": "Viikki Birdtowers",
+        "DESCRIPTION": "Nice. well used walk. Wide open and popular birdwatching area",
+        "URL": "https://www.strava.com/activities/3391308145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.218918, 25.004387]
+      }
+
+
   ]
 }
