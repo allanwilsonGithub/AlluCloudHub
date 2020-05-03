@@ -62,9 +62,13 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [60.311786, 24.487986]
-      },
-      {
+        "coordinates": [
+          60.311786,
+          24.487986
+        ]
+      }
+    },
+    {
       "type": "walkingRoute",
       "properties": {
         "ROUTE_ID": 5,
@@ -74,9 +78,11 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [60.218918, 25.004387]
+        "coordinates": [
+          60.218918,
+          25.004387
+        ]
       }
-
-
+    }
   ]
 }
