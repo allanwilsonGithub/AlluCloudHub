@@ -37,8 +37,9 @@ const RenderRecipe = ( {recipes} ) => {
   const image_porkanakakku = require('./media/porkanakakku.jpg')
   const image_pilaf = require('./media/pilaf.jpg')
   const image_paprikaChicken = require('./media/paprikachicken.png')
+  const image_lammingtons = require('./media/lammingtons.jpg')
   const imageObj =
-      {"0": image_porkanakakku, "1": image_pilaf, "2": image_paprikaChicken}
+      {"0": image_porkanakakku, "1": image_pilaf, "2": image_paprikaChicken, "3": image_lammingtons}
   return (
           <div>
              <p className="recipe_heading">{recipes[recipeId].name}</p>

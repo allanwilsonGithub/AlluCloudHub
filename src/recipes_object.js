@@ -67,5 +67,11 @@
         ingredients: '',
         recipe_text: '',
         recipe_image: '2'
+      },
+      {
+        name: 'Lammingtons',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '3'
       }
 ]
