@@ -98,6 +98,21 @@
           60.200061, 25.132105
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 7,
+        "NAME": "Piilolammi",
+        "DESCRIPTION": "Nice cycle from Hyvinkää. Lovely grillipäikkä by a small lake",
+        "URL": "https://www.strava.com/activities/3227215086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.637042, 24.740293
+        ]
+      }
     }
   ]
 }
