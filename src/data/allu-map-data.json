@@ -83,6 +83,21 @@
           25.004387
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 6,
+        "NAME": "Kallahti",
+        "DESCRIPTION": "Forest peninsula. Lovely bays on each side and kitesurfing beach at the end",
+        "URL": "https://www.strava.com/activities/3466782691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.200061, 25.132105
+        ]
+      }
     }
   ]
 }
