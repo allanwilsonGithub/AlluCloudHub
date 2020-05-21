@@ -113,6 +113,21 @@
           60.637042, 24.740293
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 8,
+        "NAME": "Lasilaakso",
+        "DESCRIPTION": "Hollow tree and lovely river bank",
+        "URL": "https://www.strava.com/activities/3487956334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.180740, 24.574191
+        ]
+      }
     }
   ]
 }
