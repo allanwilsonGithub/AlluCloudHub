@@ -128,6 +128,21 @@
           60.180740, 24.574191
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 9,
+        "NAME": "Kasavuori Scenic Cliffs",
+        "DESCRIPTION": "Beautiful scenic view over the sea, islands and Soukka. Really nice picnic spot",
+        "URL": "https://www.strava.com/activities/3497862892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.131120, 24.664719
+        ]
+      }
     }
   ]
 }
