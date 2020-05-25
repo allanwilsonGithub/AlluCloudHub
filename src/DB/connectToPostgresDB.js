@@ -8,9 +8,14 @@ const client = new Client({
     database: "allucloud"
 })
 
-client.connect()
-.then(() => console.log("Connected successfully"))
-.then(() => client.query("SELECT * FROM map_data.interesting_places"))
-.then(results => console.table(results.rows))
-.catch(e => console.log)
-.finally(() => client.end())
+
+const getAllMapDataFromPostgres = () => {
+    client.connect()
+    .then(() => console.log("Connected successfully"))
+    .then(() => client.query("SELECT * FROM map_data.interesting_places"))
+    .then(results => console.table(results.rows))
+    .catch(e => console.log)
+    .finally(() => client.end())
+}
+
+export default { getAllMapDataFromPostgres }

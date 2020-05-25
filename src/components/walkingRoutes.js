@@ -1,6 +1,7 @@
 import React from "react"
 import { Marker, Popup } from "react-leaflet"
 import * as alluMapData from "../data/allu-map-data.json"
+import getAllMapDataFromPostgres from "../DB/connectToPostgresDB"
 
 import { Icon } from "leaflet"
 
@@ -10,6 +11,8 @@ const hikingIcon = new Icon({
 })
 
 const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
+    console.log(alluMapData)
+    console.log(getAllMapDataFromPostgres)
     return (
             <div>
             {alluMapData.walkingRoutes.map(route => (
