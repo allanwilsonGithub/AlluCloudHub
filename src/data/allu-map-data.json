@@ -143,6 +143,21 @@
           60.131120, 24.664719
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 10,
+        "NAME": "Porkkalanniemi",
+        "DESCRIPTION": "Camping spot. 3o min walk from last parking place on the road. Sea, rocks and grilli",
+        "URL": "https://www.nationalparks.fi/porkkala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.969472, 24.394376
+        ]
+      }
     }
   ]
 }
