@@ -158,6 +158,21 @@
           59.969472, 24.394376
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 11,
+        "NAME": "Mukulanlahti Lintutorni (Kouvola's Panama Canal!)",
+        "DESCRIPTION": "Short boardwalk to a lovely birdtower. Overlooks a small busy canal connecting 2 massive lakes",
+        "URL": "https://www.strava.com/activities/3650457413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.942574, 26.431693
+        ]
+      }
     }
   ]
 }
