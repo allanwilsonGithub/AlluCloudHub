@@ -73,5 +73,11 @@
         ingredients: '',
         recipe_text: '',
         recipe_image: '3'
+      },
+      {
+        name: 'Chicken Pesto Pasta',
+        ingredients: 'Pesto\n2Pasta\nChicken pieces',
+        recipe_text: 'Fry chicken\nBoil water in a pan\nMake pasta\nMix pesto into the pasta\nAdd the chicken',
+        recipe_image: ''
       }
 ]
