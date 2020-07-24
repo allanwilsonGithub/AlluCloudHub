@@ -79,5 +79,10 @@
         ingredients: 'Pesto\nPasta\nChicken pieces',
         recipe_text: 'Fry chicken\nBoil water in a pan\nMake pasta\nMix pesto into the pasta\nAdd the chicken',
         recipe_image: ''
+      },     {
+        name: 'New Potatoes and Silli',
+        ingredients: 'Varhaisperunat, silli, voi, ruosipuli',
+        recipe_text: 'Melt butter and chop in the ruosipuli\nBoil the perunat in water\nSilli is in a jar',
+        recipe_image: ''
       }
 ]
