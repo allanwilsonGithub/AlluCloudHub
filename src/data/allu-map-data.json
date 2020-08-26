@@ -173,6 +173,21 @@
           60.942574, 26.431693
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 12,
+        "NAME": "Sipoonkorpi: Storträsk fishing paradise",
+        "DESCRIPTION": "Really nice maintained walk to a lake surrounded by board walks for fishermen",
+        "URL": "https://www.strava.com/activities/3954754731"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.280935, 25.156162
+        ]
+      }
     }
   ]
 }
