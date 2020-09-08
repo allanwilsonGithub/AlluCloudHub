@@ -91,5 +91,11 @@
         ingredients: 'Cooked rice, onion, ham, pea/corn mix, eggs',
         recipe_text: 'Chop and fry the onion\nAdd the ham, pea/corn mix and rice\nAdd the eggs last. Serve when eggs are cooked',
         recipe_image: ''
+      },
+      {
+        name: 'Strawberry Cake',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '4'
       }
 ]
