@@ -97,5 +97,11 @@
         ingredients: '',
         recipe_text: '',
         recipe_image: '4'
+      },
+      {
+        name: 'Rahkapiirakka',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '5'
       }
 ]
