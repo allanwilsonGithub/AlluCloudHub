@@ -40,13 +40,15 @@ const RenderRecipe = ( {recipes} ) => {
   const image_lammingtons = require('./media/lammingtons.jpg')
   const image_strawberry_cake = require('./media/strawberry_cake.png')
   const image_rahkapiirakka = require('./media/rahkapiirakka.jpg')
+  const image_tomato_halloumi_pasta = require('./media/tomato_halloumi_pasta.png')
   const imageObj = {
     "0": image_porkanakakku,
     "1": image_pilaf,
     "2": image_paprikaChicken,
     "3": image_lammingtons,
     "4": image_strawberry_cake,
-    "5": image_rahkapiirakka
+    "5": image_rahkapiirakka,
+    "6": image_tomato_halloumi_pasta
     }
   return (
           <div>
@@ -73,7 +75,7 @@ const RenderRecipe = ( {recipes} ) => {
         </div>
 
         <div>
-        <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/6764130/latest-rides/a4818acb778d736aee592cc0435fda4e8038c80e'></iframe>
+        <iframe height='454' title='strava' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/6764130/latest-rides/a4818acb778d736aee592cc0435fda4e8038c80e'></iframe>
         </div>
      </div>
   )
