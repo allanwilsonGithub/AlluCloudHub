@@ -1,11 +1,15 @@
-import React from "react"
+import React, { useState } from 'react'
 import { Map, TileLayer } from "react-leaflet"
 import DisplayWalkingRoutes from "./walkingRoutes"
 import DisplayMunros from "./munros"
 
-const DisplayMap = ( {activeRoute, setActiveRoute, activeMunro, setActiveMunro} ) => {
+const TheMap = () => {
+  const [activeRoute, setActiveRoute] = useState(null)
+  const [activeMunro, setActiveMunro] = useState(null)
+
     return (
             <div>
+            <h1>Map</h1>
                 <link
                 rel="stylesheet"
                 href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -26,6 +30,6 @@ const DisplayMap = ( {activeRoute, setActiveRoute, activeMunro, setActiveMunro} 
     )
 }
 
-export default DisplayMap
+export default TheMap
 
 

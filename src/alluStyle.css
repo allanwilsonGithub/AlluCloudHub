@@ -7,6 +7,11 @@ h1 {
   text-align: center;
 }
 
+.footer {
+  color: #86C232;
+  text-align: center;
+}
+
 .recipe_text {
   color: #6B6E70;
 }
@@ -37,9 +42,10 @@ pre {
 }
 
 .button2 {
-  background-color: #222629;
-  border: 1;
-  color:  #61892F;
+  background-color: #86C232;
+  border: 3;
+  border-color: #61892F;
+  color:  #222629;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

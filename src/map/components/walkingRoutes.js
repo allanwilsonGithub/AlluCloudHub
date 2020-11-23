@@ -11,8 +11,6 @@ const hikingIcon = new Icon({
 })
 
 const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
-    console.log(alluMapData)
-    //console.log(getAllMapDataFromPostgres)
     return (
             <div>
             {alluMapData.walkingRoutes.map(route => (

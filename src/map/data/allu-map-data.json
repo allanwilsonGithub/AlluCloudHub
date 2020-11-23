@@ -42,7 +42,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 3,
+        "ROUTE_ID": 4,
         "NAME": "Sorlampi, Nuuksio",
         "DESCRIPTION": "5km luontopolku. Cave. Hiidenkirnut",
         "URL": "https://www.strava.com/activities/3350895787"
@@ -55,7 +55,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 4,
+        "ROUTE_ID": 5,
         "NAME": "Iso Holma, Nuuksio",
         "DESCRIPTION": "3.5km walk to idylic campsite. Firewood and toilet there",
         "URL": "https://www.strava.com/activities/3386829163"
@@ -71,7 +71,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 5,
+        "ROUTE_ID": 6,
         "NAME": "Viikki Birdtowers",
         "DESCRIPTION": "Nice. well used walk. Wide open and popular birdwatching area",
         "URL": "https://www.strava.com/activities/3391308145"
@@ -87,7 +87,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 6,
+        "ROUTE_ID": 7,
         "NAME": "Kallahti",
         "DESCRIPTION": "Forest peninsula. Lovely bays on each side and kitesurfing beach at the end",
         "URL": "https://www.strava.com/activities/3466782691"
@@ -102,7 +102,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 7,
+        "ROUTE_ID": 8,
         "NAME": "Piilolammi",
         "DESCRIPTION": "Nice cycle from Hyvinkää. Lovely grillipäikkä by a small lake",
         "URL": "https://www.strava.com/activities/3227215086"
@@ -117,7 +117,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 8,
+        "ROUTE_ID": 9,
         "NAME": "Lasilaakso",
         "DESCRIPTION": "Hollow tree, bird tower and lovely river bank",
         "URL": "https://www.strava.com/activities/3487956334"
@@ -132,7 +132,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 9,
+        "ROUTE_ID": 10,
         "NAME": "Kasavuori Scenic Cliffs",
         "DESCRIPTION": "Beautiful scenic view over the sea, islands and Soukka. Really nice picnic spot",
         "URL": "https://www.strava.com/activities/3497862892"
@@ -147,7 +147,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 10,
+        "ROUTE_ID": 11,
         "NAME": "Porkkalanniemi",
         "DESCRIPTION": "Camping spot. 30 min walk from last parking place on the road. Sea, rocks and grilli",
         "URL": "https://www.strava.com/activities/3612551786"
@@ -162,7 +162,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 11,
+        "ROUTE_ID": 12,
         "NAME": "Mukulanlahti Lintutorni (Kouvola's Panama Canal!)",
         "DESCRIPTION": "Short boardwalk to a lovely birdtower. Overlooks a small busy canal connecting 2 massive lakes",
         "URL": "https://www.strava.com/activities/3650457413"
@@ -177,7 +177,7 @@
     {
       "type": "walkingRoute",
       "properties": {
-        "ROUTE_ID": 12,
+        "ROUTE_ID": 13,
         "NAME": "Sipoonkorpi: Storträsk fishing paradise",
         "DESCRIPTION": "Really nice maintained walk to a lake surrounded by board walks for fishermen",
         "URL": "https://www.strava.com/activities/3954754731"
