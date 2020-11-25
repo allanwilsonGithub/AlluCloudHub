@@ -116,4 +116,22 @@
         recipe_text: 'Put everything in a pot\n1/2 fill with water\nbring to boil and simmer for 2 hours',
         recipe_image: ''
       },
+      {
+        name: 'Thai Curry',
+        ingredients: '2 x 400 ml of coconut milk\n2 big spoons of palm sugar / coconut sugar\n4 chilli peppers\n'
+        + '2 big spoons of red curry paste (or masaman curry or pnang curry) I buy my red curry from this Aseanic Trading Oy which is in Hakaniemi they have the authentic stuff and its cheap. The amount you put in depends on how intense you want the flavor to be, so experiment.'
+        + '\n6-8 minimais\nA pack of sokeriherneet (I think it�s 200-300 grams or something, they usually sell them in these packs)\n10 Dried Lime leaves'
+        + '\n2 big spoons of Thai kalakastiket\n400 grams of chicken fillet pieces (perfectly fine without the chicken as well, if you want a veggie plate. When I do substitute chicken, i put in munakois)'
+        + 'rice',
+        recipe_text: 'Put some (two spoonfuls) coconut milk on the pan and stir it until it melts (it�s usually in a solid form when you open the can)\n'
+        + 'Add the curry paste and mix/dissolve it in the coconut milk\n'
+        + 'Add the chicken and stir-fry it for a few minutes\n'
+        + 'Add the rest of the coconut milk and mix it\n'
+        + 'Add the cut sokeriherneet,  minimais pieces (I usually cut the herneet in half and minimais horizontally + vertically)\n'
+        + 'Let it boil for 5 minutes\n'
+        + 'Add the kalakastike, chilli peppers (chopped), palm sugar and lime leaves\n'
+        + 'Let it boil for another ~10 minutes or until the vegetables are ready (not too soft and not uncooked)\n'
+        + 'Serve with basmati rice',
+        recipe_image: ''
+      }
 ]
