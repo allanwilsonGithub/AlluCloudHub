@@ -188,4 +188,22 @@
                    + '1/2 tsp paprika powder\nfry all to get colour\nadd 2 raw eggs\n+ salt',
         recipe_image: ''
       },
+      {
+        name: 'Asian Noodle Salad',
+        ingredients: 'Chopped: Spring Onion\nChopped: Chinese Cabbage or Lettuce\nCrushed: Cashew nuts or almonds',
+        recipe_text: 'Mix while heating gently and pour over:\nOlive Oil 1/2 cup\nCaster Suger  1/4 cup\nVinigar 1/4 cup\nSoy Sauce 2 Tbspns\nAdd asian noodles if you can find them',
+        recipe_image: ''
+      },
+      {
+        name: 'Pannukakku',
+        ingredients: '- 5dl maito\n- 2 kanamunia\n- 2.5 dl jauho\n- 1 tsp suola',
+        recipe_text: 'Whisk it and put in the oven 25 mins 225oC',
+        recipe_image: '8'
+      },
+      {
+        name: 'Satay',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '9'
+      },
 ]
