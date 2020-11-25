@@ -167,5 +167,11 @@
           + 'Fry in hot oil and *slowly* fry in one place for about 6 mins on each side. Both sides should be crispy and brown'
           + 'Plate the noodles and place the tofu on top.',
         recipe_image: ''
-      }
+      },
+      {
+        name: 'Bataatti Porkkana Keitto',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '7'
+      },
 ]
