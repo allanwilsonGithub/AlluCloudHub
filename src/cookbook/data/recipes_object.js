@@ -109,5 +109,11 @@
         ingredients: '',
         recipe_text: '',
         recipe_image: '6'
-      }
+      },
+      {
+        name: 'Lentil Soup',
+        ingredients: '1 turnip chopped and peeled\n6 carrots chopped and peeled\nsplit peas 4 handfulls\nlentils 4 handfuls\n1 leak chopped\n2 onions chopped\n3 beef stock cubes',
+        recipe_text: 'Put everything in a pot\n1/2 fill with water\nbring to boil and simmer for 2 hours',
+        recipe_image: ''
+      },
 ]
