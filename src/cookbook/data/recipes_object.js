@@ -141,5 +141,31 @@
         recipe_text: 'Mix both parts together. Spread evenly on an oven tray (deep one) lined with baking paper\nAdd dollops of apple puree (or whatever fruit) evenly accross the base'
           + 'Add crumbs (pinch together with fingers until crumbs appear):\n50g baking margerine\n1/2 dl sugar\n1 dl flour\n\nBake 225oC for 20-25 mins',
         recipe_image: ''
+      },
+      {
+        name: 'Rahka',
+        ingredients: '',
+        recipe_text: 'Whip cream\nAdd rahka\nsugar\nvanilla essence',
+        recipe_image: ''
+      },
+      {
+        name: 'Pork and Sweet Potato Wedges',
+        ingredients: 'Pork steaks\nSweet Potato\n4-5 Peppers (red/yellow/green)\nolive oil\nrosemary\nsalt\nbroccoli',
+        recipe_text: 'Sweet Potato.. cut into wedges, toss in olive oil, rosemary and salt, bake on a baking sheet. Add sliced peppers and put in oven at 250oC for 30 mins (turning all once)\n'
+          + 'Steam broccoli for 20 mins in steaming pan\n'
+          + 'Pork steaks (porsan leikki) fry in olive oil about 5-6 mins each side until red/pink is gone',
+        recipe_image: ''
+      },
+      {
+        name: 'Tofu Wok',
+        ingredients: 'Tofu\nWok vegetables\nEgg noodles\nWok sauce (satay wok sauce or similar)\nCeyanne pepper\nCooking Oil\nSalt'
+          + '\nKitchen paper',
+        recipe_text: 'Boil egg noodles in water for 6 mins (or whatever the pack says) and drain\n'
+          + 'Fry wok vegetables and wok sauce. Add egg noodles and mix it up.\n'
+          + 'Slice tofu block into 3 thinner slices. Place between kitchen towels to absorb liquid. Repeat about 4 times till dryish\n'
+          + 'Cut into bite sized long cubes, sprinkle both side with ceyanne pepper and salt\n'
+          + 'Fry in hot oil and *slowly* fry in one place for about 6 mins on each side. Both sides should be crispy and brown'
+          + 'Plate the noodles and place the tofu on top.',
+        recipe_image: ''
       }
 ]
