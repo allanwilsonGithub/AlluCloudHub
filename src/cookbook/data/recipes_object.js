@@ -206,4 +206,18 @@
         recipe_text: '',
         recipe_image: '9'
       },
+      {
+        name: 'Cupcakes',
+        ingredients: '1 cup = 225mls\n2 cups flour\n1/2 tsp salt\n2 tsp baking powder\n1/2 cup butter\n3/4 cup sugar\n2 eggs'
+                   + '1 cup milk\nvanilla essence\npaper cake cups',
+        recipe_text: '(Makes about 25 cakes)Oven: 190oC\nMix butter and sugar until light and fluffy\nBeat in the eggs\nAdd flour + baking powder + salt'
+                   + 'at the same time mix the milk\nAdd vanilla essence\nput the smooth mixture into paper cups\nInto the oven for 18 minutes @190oC',
+        recipe_image: ''
+      },
+      {
+        name: 'Swedish Meatballs',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '10'
+      },
 ]
