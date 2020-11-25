@@ -174,4 +174,18 @@
         recipe_text: '',
         recipe_image: '7'
       },
+      {
+        name: 'Mustikka Pirakka',
+        ingredients: '',
+        recipe_text: 'Flatten dough (taikina) thickly into the round dish\nSpread frozen mustikka evenly over the top\nsprinkle 2 tblspoons of sugar over the top'
+          + '---\nIn a bowl mix 1 kermavilli , 1 egg , 1 tsp vanilla sugar, 1/2 dl normal sugar\npour on top of mustikka in the dish\n----\nbake at 200oC for 20-25 mins',
+        recipe_image: ''
+      },
+      {
+        name: 'Pytti Pannu',
+        ingredients: '',
+        recipe_text: 'Fry one garlic clove\nBoil 6 tatties (skin on), peel and cube\nFry chicken completely\n1/2 tsp curry powder\nchop nakki'
+                   + '1/2 tsp paprika powder\nfry all to get colour\nadd 2 raw eggs\n+ salt',
+        recipe_image: ''
+      },
 ]
