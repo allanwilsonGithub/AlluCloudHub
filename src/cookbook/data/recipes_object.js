@@ -119,19 +119,27 @@
       {
         name: 'Thai Curry',
         ingredients: '2 x 400 ml of coconut milk\n2 big spoons of palm sugar / coconut sugar\n4 chilli peppers\n'
-        + '2 big spoons of red curry paste (or masaman curry or pnang curry) I buy my red curry from this Aseanic Trading Oy which is in Hakaniemi they have the authentic stuff and its cheap. The amount you put in depends on how intense you want the flavor to be, so experiment.'
-        + '\n6-8 minimais\nA pack of sokeriherneet (I think it�s 200-300 grams or something, they usually sell them in these packs)\n10 Dried Lime leaves'
-        + '\n2 big spoons of Thai kalakastiket\n400 grams of chicken fillet pieces (perfectly fine without the chicken as well, if you want a veggie plate. When I do substitute chicken, i put in munakois)'
-        + 'rice',
+          + '2 big spoons of red curry paste (or masaman curry or pnang curry) I buy my red curry from this Aseanic Trading Oy which is in Hakaniemi they have the authentic stuff and its cheap. The amount you put in depends on how intense you want the flavor to be, so experiment.'
+          + '\n6-8 minimais\nA pack of sokeriherneet (I think it�s 200-300 grams or something, they usually sell them in these packs)\n10 Dried Lime leaves'
+          + '\n2 big spoons of Thai kalakastiket\n400 grams of chicken fillet pieces (perfectly fine without the chicken as well, if you want a veggie plate. When I do substitute chicken, i put in munakois)'
+          + 'rice',
         recipe_text: 'Put some (two spoonfuls) coconut milk on the pan and stir it until it melts (it�s usually in a solid form when you open the can)\n'
-        + 'Add the curry paste and mix/dissolve it in the coconut milk\n'
-        + 'Add the chicken and stir-fry it for a few minutes\n'
-        + 'Add the rest of the coconut milk and mix it\n'
-        + 'Add the cut sokeriherneet,  minimais pieces (I usually cut the herneet in half and minimais horizontally + vertically)\n'
-        + 'Let it boil for 5 minutes\n'
-        + 'Add the kalakastike, chilli peppers (chopped), palm sugar and lime leaves\n'
-        + 'Let it boil for another ~10 minutes or until the vegetables are ready (not too soft and not uncooked)\n'
-        + 'Serve with basmati rice',
+          + 'Add the curry paste and mix/dissolve it in the coconut milk\n'
+          + 'Add the chicken and stir-fry it for a few minutes\n'
+          + 'Add the rest of the coconut milk and mix it\n'
+          + 'Add the cut sokeriherneet,  minimais pieces (I usually cut the herneet in half and minimais horizontally + vertically)\n'
+          + 'Let it boil for 5 minutes\n'
+          + 'Add the kalakastike, chilli peppers (chopped), palm sugar and lime leaves\n'
+          + 'Let it boil for another ~10 minutes or until the vegetables are ready (not too soft and not uncooked)\n'
+          + 'Serve with basmati rice',
+        recipe_image: ''
+      },
+      {
+        name: 'Cake of the Day',
+        ingredients: 'Part1. mix well!\n2 eggs\n100g baking margarine (Sunnuntai), melted\n1 dl milk\n\nPart2. mix well!\n3.5 dl flour\n2 dl sugar'
+          + '2 tsp baking powder\n2 tsp vanilla sugar or extract',
+        recipe_text: 'Mix both parts together. Spread evenly on an oven tray (deep one) lined with baking paper\nAdd dollops of apple puree (or whatever fruit) evenly accross the base'
+          + 'Add crumbs (pinch together with fingers until crumbs appear):\n50g baking margerine\n1/2 dl sugar\n1 dl flour\n\nBake 225oC for 20-25 mins',
         recipe_image: ''
       }
 ]
