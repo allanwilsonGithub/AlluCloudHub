@@ -11,7 +11,7 @@ const munroIcon = new Icon({
 
 const munroDoneIcon = new Icon({
   iconUrl: './munroDone.svg',
-  iconSize: [30, 30]
+  iconSize: [50, 50]
 })
 
 const DisplayMunros= ( {activeMunro, setActiveMunro} ) => {
@@ -27,7 +27,7 @@ const DisplayMunros= ( {activeMunro, setActiveMunro} ) => {
                        onClick={() => {
                          setActiveMunro(mountain)
                        }}
-                       icon={munroIcon}
+                       icon={mountain.allanDone ? munroDoneIcon: munroIcon}
 
                     />
                 ))}
