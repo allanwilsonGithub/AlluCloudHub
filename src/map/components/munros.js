@@ -9,6 +9,11 @@ const munroIcon = new Icon({
   iconSize: [25, 25]
 })
 
+const munroDoneIcon = new Icon({
+  iconUrl: './munroDone.svg',
+  iconSize: [30, 30]
+})
+
 const DisplayMunros= ( {activeMunro, setActiveMunro} ) => {
     return (
             <div>
@@ -42,6 +47,7 @@ const DisplayMunros= ( {activeMunro, setActiveMunro} ) => {
                      <p>{activeMunro.height} metres</p>
                      <p>{activeMunro.region}</p>
                      <p>{activeMunro.meaning}</p>
+                     <p>{activeMunro.allanDone}</p>
                    </div>
                    </Popup>
                    )}
