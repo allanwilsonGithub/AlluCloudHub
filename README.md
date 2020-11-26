@@ -1,4 +1,4 @@
-This is the main content for www.allanwilson.net
+This is the content for www.allanwilson.net
 
 Deployment is done to AWS via this repository:
 git@github.com:allanwilsonGithub/AlluCloudHubDocker.git
