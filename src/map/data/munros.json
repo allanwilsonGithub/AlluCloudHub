@@ -1658,8 +1658,7 @@
     "smcid": "M126",
     "metoffice_loc_id": "350791",
     "region": "Speyside to Great Glen",
-    "meaning": "Grey hill",
-    "allanDone": 1
+    "meaning": "Grey hill"
   },
   {
     "name": "Maoile Lunndaidh",
@@ -1895,8 +1894,7 @@
     "smcid": "M144",
     "metoffice_loc_id": "350024",
     "region": "Loch Maree to Loch Broom",
-    "meaning": "The old woman",
-    "allanDone": 1
+    "meaning": "The old woman"
   },
   {
     "name": "Glas Bheinn Mhor",
@@ -2383,7 +2381,8 @@
     "smcid": "M181",
     "metoffice_loc_id": "350792",
     "region": "Drumochter to Glen Shee",
-    "meaning": "Grey hill"
+    "meaning": "Grey hill",
+    "allanDone": 1
   },
   {
     "name": "Stuc a' Chroin",
@@ -3306,7 +3305,8 @@
     "smcid": "M251",
     "metoffice_loc_id": "350025",
     "region": "Speyside to Great Glen",
-    "meaning": "The old woman"
+    "meaning": "The old woman",
+    "allanDone": 1
   },
   {
     "name": "Bla Bheinn (Blaven)",
