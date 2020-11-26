@@ -31,6 +31,9 @@ const Cookbook = ( {recipes} ) => {
       const image_pannukakku = require('../media/pannukakku.jpg')
       const image_satay = require('../media/satay.jpg')
       const image_meatballs = require('../media/meatballs.jpg')
+      const image_dahl = require('../media/dahl.png')
+      const image_kinkku_kiusaus = require('../media/kiusaus.png')
+      const image_red_curry_2 = require('../media/redCurry2.png')
       const imageObj = {
         "0": image_porkanakakku,
         "1": image_pilaf,
@@ -42,7 +45,10 @@ const Cookbook = ( {recipes} ) => {
         "7": image_bataatti_porkkana_keitto,
         "8": image_pannukakku,
         "9": image_satay,
-        "10": image_meatballs
+        "10": image_meatballs,
+        "11": image_dahl,
+        "12": image_kinkku_kiusaus,
+        "13": image_red_curry_2
         }
 
         return (

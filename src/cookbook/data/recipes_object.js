@@ -220,4 +220,24 @@
         recipe_text: '',
         recipe_image: '10'
       },
+      {
+        name: 'Indian Sweet Potato and Dahl Pie',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '11'
+      },
+      {
+        name: 'Kinkku Kiusaus',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '12'
+      },
+      {
+        name: 'Red Curry Teemu Style',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '13'
+      }
+
+
 ]
