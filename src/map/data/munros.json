@@ -272,7 +272,8 @@
     "smcid": "M021",
     "metoffice_loc_id": "352399",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Little loch of the noisy sound (Lochan na Gaire)"
+    "meaning": "Little loch of the noisy sound (Lochan na Gaire)",
+    "allanDone": 1
   },
   {
     "name": "Sgurr nan Ceathreamhnan",
@@ -1767,7 +1768,8 @@
     "smcid": "M136",
     "metoffice_loc_id": "352589",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Hill of horse studs"
+    "meaning": "Hill of horse studs",
+    "allanDone": 1
   },
   {
     "name": "Sgorr Dhonuill (Beinn a' Bheithir)",
@@ -1845,7 +1847,8 @@
     "smcid": "M142",
     "metoffice_loc_id": "350616",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Broad cairn"
+    "meaning": "Broad cairn",
+    "allanDone": 1
   },
   {
     "name": "Stob Diamh",
