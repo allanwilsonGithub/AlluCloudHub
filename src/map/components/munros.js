@@ -5,13 +5,13 @@ import * as munroMapData from "../data/munros.json"
 import { Icon } from "leaflet"
 
 const munroIcon = new Icon({
-  iconUrl: './munro.svg',
-  iconSize: [25, 25]
+  iconUrl: './munro.png',
+  iconSize: [20, 20]
 })
 
 const munroDoneIcon = new Icon({
-  iconUrl: './munroDone.svg',
-  iconSize: [50, 50]
+  iconUrl: './munroDone.png',
+  iconSize: [30, 30]
 })
 
 const DisplayMunros= ( {activeMunro, setActiveMunro} ) => {
@@ -47,7 +47,6 @@ const DisplayMunros= ( {activeMunro, setActiveMunro} ) => {
                      <p>{activeMunro.height} metres</p>
                      <p>{activeMunro.region}</p>
                      <p>{activeMunro.meaning}</p>
-                     <p>{activeMunro.allanDone}</p>
                    </div>
                    </Popup>
                    )}

@@ -25,7 +25,8 @@
     "smcid": "M002",
     "metoffice_loc_id": "350373",
     "region": "Deeside to Speyside - The Cairngorms",
-    "meaning": "Hill of the son of Duff"
+    "meaning": "Hill of the son of Duff",
+    "allanDone": 1
   },
   {
     "name": "Braeriach",
@@ -129,7 +130,8 @@
     "smcid": "M010",
     "metoffice_loc_id": "350370",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Gaelic labhar, meaning loud (from a stream)"
+    "meaning": "Gaelic labhar, meaning loud (from a stream)",
+    "allanDone": 1
   },
   {
     "name": "Beinn a' Bhuird",
@@ -416,7 +418,8 @@
     "smcid": "M032",
     "metoffice_loc_id": "350796",
     "region": "Drumochter to Glen Shee",
-    "meaning": "Hill of the goats"
+    "meaning": "Hill of the goats",
+    "allanDone": 1
   },
   {
     "name": "A' Chralaig",
@@ -442,7 +445,8 @@
     "smcid": "M034",
     "metoffice_loc_id": "350103",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "The peak"
+    "meaning": "The peak",
+    "allanDone": 1
   },
   {
     "name": "Meall Garbh",
@@ -455,7 +459,8 @@
     "smcid": "M035",
     "metoffice_loc_id": "352584",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Rough hill"
+    "meaning": "Rough hill",
+    "allanDone": 1
   },
   {
     "name": "Sgor Gaoith",
@@ -611,7 +616,8 @@
     "smcid": "M047",
     "metoffice_loc_id": "350327",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Greenish-grey hill"
+    "meaning": "Greenish-grey hill",
+    "allanDone": 1
   },
   {
     "name": "Beinn Eibhinn",
@@ -767,7 +773,8 @@
     "smcid": "M059",
     "metoffice_loc_id": "353377",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "The fairly hill of the Caledonians"
+    "meaning": "The fairly hill of the Caledonians",
+    "allanDone": 1
   },
   {
     "name": "Sgurr a' Choire Ghlais",
@@ -858,7 +865,8 @@
     "smcid": "M066",
     "metoffice_loc_id": "350562",
     "region": "Drumochter to Glen Shee",
-    "meaning": "Upland of the corrie of the round blisters"
+    "meaning": "Upland of the corrie of the round blisters",
+    "allanDone": 1
   },
   {
     "name": "An Socach",
@@ -884,7 +892,8 @@
     "smcid": "M068",
     "metoffice_loc_id": "352582",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Notched, prickly hill"
+    "meaning": "Notched, prickly hill",
+    "allanDone": 1
   },
   {
     "name": "Glas Maol",
@@ -897,7 +906,8 @@
     "smcid": "M069",
     "metoffice_loc_id": "351578",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Greenish grey bare hill"
+    "meaning": "Greenish grey bare hill",
+    "allanDone": 1
   },
   {
     "name": "Sgurr Fhuaran",
@@ -1079,7 +1089,8 @@
     "smcid": "M083",
     "metoffice_loc_id": "350780",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Big hill of the priest"
+    "meaning": "Big hill of the priest",
+    "allanDone": 1
   },
   {
     "name": "Creag Mhor",
@@ -1092,7 +1103,8 @@
     "smcid": "M084",
     "metoffice_loc_id": "351068",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Big rock"
+    "meaning": "Big rock",
+    "allanDone": 1
   },
   {
     "name": "Ben Wyvis, Glas Leathad Mor",
@@ -1183,7 +1195,8 @@
     "smcid": "M091",
     "metoffice_loc_id": "350794",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Hill of sorrow"
+    "meaning": "Hill of sorrow",
+    "allanDone": 1
   },
   {
     "name": "Sgurr na Ciche",
@@ -1235,7 +1248,8 @@
     "smcid": "M095",
     "metoffice_loc_id": "350777",
     "region": "Deeside to Speyside - The Cairngorms",
-    "meaning": "Hill of the pass"
+    "meaning": "Hill of the pass",
+    "allanDone": 1
   },
   {
     "name": "Sgurr a' Bhealaich Dheirg",
@@ -1274,7 +1288,8 @@
     "smcid": "M098",
     "metoffice_loc_id": "350784",
     "region": "Loch Linnhe to Loch Ericht",
-    "meaning": "Red hill"
+    "meaning": "Red hill",
+    "allanDone": 1
   },
   {
     "name": "Am Bodach",
@@ -1339,7 +1354,8 @@
     "smcid": "M103",
     "metoffice_loc_id": "350790",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Blue hill"
+    "meaning": "Blue hill",
+    "allanDone": 1
   },
   {
     "name": "Sgurr a' Mhaoraich",
@@ -1521,7 +1537,8 @@
     "smcid": "M117",
     "metoffice_loc_id": "350712",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Hill of the point"
+    "meaning": "Hill of the point",
+    "allanDone": 1
   },
   {
     "name": "Ben Ime",
@@ -1534,7 +1551,8 @@
     "smcid": "M118",
     "metoffice_loc_id": "350329",
     "region": "Loch Fyne to Loch Tay",
-    "meaning": "Butter hill"
+    "meaning": "Butter hill",
+    "allanDone": 1
   },
   {
     "name": "Beinn Udlamain",
@@ -1547,7 +1565,8 @@
     "smcid": "M119",
     "metoffice_loc_id": "350343",
     "region": "Loch Ericht to Drumochter",
-    "meaning": "Gloomy mountain"
+    "meaning": "Gloomy mountain",
+    "allanDone": 1
   },
   {
     "name": "Beinn Eighe (Ruadh-stac Mor)",
@@ -1599,7 +1618,8 @@
     "smcid": "M123",
     "metoffice_loc_id": "353430",
     "region": "Loch Linnhe to Loch Ericht",
-    "meaning": "Big peak of the hind"
+    "meaning": "Big peak of the hind",
+    "allanDone": 1
   },
   {
     "name": "Beinn Dearg",
@@ -1638,7 +1658,8 @@
     "smcid": "M126",
     "metoffice_loc_id": "350791",
     "region": "Speyside to Great Glen",
-    "meaning": "Grey hill"
+    "meaning": "Grey hill",
+    "allanDone": 1
   },
   {
     "name": "Maoile Lunndaidh",
@@ -1874,7 +1895,8 @@
     "smcid": "M144",
     "metoffice_loc_id": "350024",
     "region": "Loch Maree to Loch Broom",
-    "meaning": "The old woman"
+    "meaning": "The old woman",
+    "allanDone": 1
   },
   {
     "name": "Glas Bheinn Mhor",
@@ -2017,7 +2039,8 @@
     "smcid": "M155",
     "metoffice_loc_id": "353404",
     "region": "Loch Ericht to Drumochter",
-    "meaning": "Big stony hillside"
+    "meaning": "Big stony hillside",
+    "allanDone": 1
   },
   {
     "name": "Beinn Eunaich",
@@ -2069,7 +2092,8 @@
     "smcid": "M159",
     "metoffice_loc_id": "351066",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Slabby rock"
+    "meaning": "Slabby rock",
+    "allanDone": 1
   },
   {
     "name": "Druim Shionnach",
@@ -2147,7 +2171,8 @@
     "smcid": "M165",
     "metoffice_loc_id": "350382",
     "region": "Loch Fyne to Loch Tay",
-    "meaning": "Hill of the bay"
+    "meaning": "Hill of the bay",
+    "allanDone": 1
   },
   {
     "name": "An Gearanach",
@@ -2225,7 +2250,8 @@
     "smcid": "M171",
     "metoffice_loc_id": "353686",
     "region": "Loch Linnhe to Loch Ericht",
-    "meaning": "Peak of the corrie of the cairn"
+    "meaning": "Peak of the corrie of the cairn",
+    "allanDone": 1
   },
   {
     "name": "Beinn a' Chochuill",
@@ -2329,7 +2355,8 @@
     "smcid": "M179",
     "metoffice_loc_id": "350090",
     "region": "Loch Ericht to Drumochter",
-    "meaning": "The horse place"
+    "meaning": "The horse place",
+    "allanDone": 1
   },
   {
     "name": "Carn a' Gheoidh",
@@ -2342,7 +2369,8 @@
     "smcid": "M180",
     "metoffice_loc_id": "350776",
     "region": "Drumochter to Glen Shee",
-    "meaning": "Hill of the goose"
+    "meaning": "Hill of the goose",
+    "allanDone": 1
   },
   {
     "name": "Carn Liath",
@@ -2368,7 +2396,8 @@
     "smcid": "M182",
     "metoffice_loc_id": "353754",
     "region": "Loch Fyne to Loch Tay",
-    "meaning": "Peak of harm or danger"
+    "meaning": "Peak of harm or danger",
+    "allanDone": 1
   },
   {
     "name": "Beinn Sgritheall",
@@ -2394,7 +2423,8 @@
     "smcid": "M184",
     "metoffice_loc_id": "350371",
     "region": "Loch Fyne to Loch Tay",
-    "meaning": "Beacon hill"
+    "meaning": "Beacon hill",
+    "allanDone": 1
   },
   {
     "name": "Sgurr a' Ghreadhaidh",
@@ -2420,7 +2450,8 @@
     "smcid": "M186",
     "metoffice_loc_id": "352585",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Rough hill"
+    "meaning": "Rough hill",
+    "allanDone": 1
   },
   {
     "name": "A' Mhaighdean",
@@ -2628,7 +2659,8 @@
     "smcid": "M202",
     "metoffice_loc_id": "353933",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Doll mounth or hill (leading to Glen Doll)"
+    "meaning": "Doll mounth or hill (leading to Glen Doll)",
+    "allanDone": 1
   },
   {
     "name": "Carn Ghluasaid",
@@ -2654,7 +2686,8 @@
     "smcid": "M204",
     "metoffice_loc_id": "353935",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Yellow hill"
+    "meaning": "Yellow hill",
+    "allanDone": 1
   },
   {
     "name": "Saileag",
@@ -2849,7 +2882,8 @@
     "smcid": "M219",
     "metoffice_loc_id": "351247",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "From the Gaelic dris, a thorn bush or bramble"
+    "meaning": "From the Gaelic dris, a thorn bush or bramble",
+    "allanDone": 1
   },
   {
     "name": "Beinn Tulaichean",
@@ -2953,7 +2987,8 @@
     "smcid": "M227",
     "metoffice_loc_id": "350100",
     "region": "Drumochter to Glen Shee",
-    "meaning": "The projecting place (beak or snout)"
+    "meaning": "The projecting place (beak or snout)",
+    "allanDone": 1
   },
   {
     "name": "Sgurr Dubh Mor",
@@ -2992,7 +3027,8 @@
     "smcid": "M230",
     "metoffice_loc_id": "350437",
     "region": "Loch Linnhe to Loch Ericht",
-    "meaning": "Small peak"
+    "meaning": "Small peak",
+    "allanDone": 1
   },
   {
     "name": "Beinn a' Chroin",
@@ -3031,7 +3067,8 @@
     "smcid": "M233",
     "metoffice_loc_id": "350795",
     "region": "Loch Ericht to Drumochter",
-    "meaning": "Cairn of the curve"
+    "meaning": "Cairn of the curve",
+    "allanDone": 1
   },
   {
     "name": "Luinne Bheinne",
@@ -3057,7 +3094,8 @@
     "smcid": "M235",
     "metoffice_loc_id": "352701",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Gaelic monadh, meaning hill"
+    "meaning": "Gaelic monadh, meaning hill",
+    "allanDone": 1
   },
   {
     "name": "Mullach na Coirean",
@@ -3122,7 +3160,8 @@
     "smcid": "M240",
     "metoffice_loc_id": "350001",
     "region": "Loch Ericht to Drumochter",
-    "meaning": "The little yellow place"
+    "meaning": "The little yellow place",
+    "allanDone": 1
   },
   {
     "name": "Beinn na Lap",
@@ -3187,7 +3226,8 @@
     "smcid": "M245",
     "metoffice_loc_id": "3072",
     "region": "Drumochter to Glen Shee",
-    "meaning": "From Gaelic Carn Bhalg, hill of bags"
+    "meaning": "From Gaelic Carn Bhalg, hill of bags",
+    "allanDone": 1
   },
   {
     "name": "Fionn Bheinn",
@@ -3252,7 +3292,8 @@
     "smcid": "M250",
     "metoffice_loc_id": "350367",
     "region": "Loch Fyne to Loch Tay",
-    "meaning": "Probably mossy hill"
+    "meaning": "Probably mossy hill",
+    "allanDone": 1
   },
   {
     "name": "A' Chailleach",
@@ -3291,7 +3332,8 @@
     "smcid": "M253",
     "metoffice_loc_id": "352569",
     "region": "Glen Shee to Glen Esk",
-    "meaning": "Meaning obscure"
+    "meaning": "Meaning obscure",
+    "allanDone": 1
   },
   {
     "name": "Meall nan Eun",
@@ -3369,7 +3411,8 @@
     "smcid": "M259",
     "metoffice_loc_id": "350337",
     "region": "Loch Fyne to Loch Tay",
-    "meaning": "Unknown"
+    "meaning": "Unknown",
+    "allanDone": 1
   },
   {
     "name": "Geal Charn",
@@ -3382,7 +3425,8 @@
     "smcid": "M260",
     "metoffice_loc_id": "351555",
     "region": "Speyside to Great Glen",
-    "meaning": "White hill"
+    "meaning": "White hill",
+    "allanDone": 1
   },
   {
     "name": "Meall a' Choire Leith",
@@ -3395,7 +3439,8 @@
     "smcid": "M261",
     "metoffice_loc_id": "352577",
     "region": "Loch Tay to Rannoch Moor",
-    "meaning": "Hill of the grey corrie"
+    "meaning": "Hill of the grey corrie",
+    "allanDone": 1
   },
   {
     "name": "Seana Bhraigh",
@@ -3655,7 +3700,8 @@
     "smcid": "M281",
     "metoffice_loc_id": "350782",
     "region": "Drumochter to Glen Shee",
-    "meaning": "Hill of age"
+    "meaning": "Hill of age",
+    "allanDone": 1
   },
   {
     "name": "Beinn Teallach",
