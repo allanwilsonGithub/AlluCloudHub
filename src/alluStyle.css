@@ -16,6 +16,10 @@ h1 {
   color: #6B6E70;
 }
 
+.contact_text {
+  color: #6B6E70;
+}
+
 .recipe_heading {
   color: #61892F;
   font-family: verdana;
@@ -47,6 +51,20 @@ pre {
   border-color: #61892F;
   color:  #222629;
   padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {
+  background-color: #86C232;
+  border: 3;
+  border-color: #61892F;
+  color:  #222629;
+  padding: 8px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

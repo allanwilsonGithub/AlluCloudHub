@@ -5,6 +5,7 @@ import './alluStyle.css'
 import TheMap from './map/components/TheMap'
 import Fitness from './fitness/components/Fitness'
 import Cookbook from './cookbook/components/Cookbook'
+import Contact from './contact/components/Contact'
 
 import {
   BrowserRouter as Router,
@@ -28,6 +29,7 @@ const App = () => {
         <Link className="button2" to="/">cookbook</Link>
         <Link className="button2" to="/map">map</Link>
         <Link className="button2" to="/fitness">fitness</Link>
+        <p><Link className="button3" to="/contact">contact</Link></p>
       </div>
 
       <Switch>
@@ -36,6 +38,9 @@ const App = () => {
         </Route>
         <Route path="/fitness">
           <Fitness />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/">
           <Cookbook recipes={recipes}/>
