@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Map, TileLayer } from "react-leaflet"
 import DisplayWalkingRoutes from "./walkingRoutes"
 import DisplayMunros from "./munros"
+import DisplayTracks from './tracks'
 
 const TheMap = () => {
   const [activeRoute, setActiveRoute] = useState(null)
@@ -17,7 +18,7 @@ const TheMap = () => {
                 crossOrigin=""
                 />
 
-                <Map center={[60.199550, 24.696819]} zoom={12}>
+                <Map center={[60.199550, 24.696819]} zoom={8}>
 
                 <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -25,6 +26,8 @@ const TheMap = () => {
                 />
                 <DisplayWalkingRoutes activeRoute={activeRoute} setActiveRoute={setActiveRoute} />
                 <DisplayMunros activeMunro={activeMunro} setActiveMunro={setActiveMunro} />
+                <DisplayTracks />
+                
                 </Map>
             </div>
     )
