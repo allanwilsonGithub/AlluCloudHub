@@ -6,6 +6,7 @@ import TheMap from './map/components/TheMap'
 import Fitness from './fitness/components/Fitness'
 import Cookbook from './cookbook/components/Cookbook'
 import Contact from './contact/components/Contact'
+import Hobbies from './hobbies/components/Hobbies'
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ const App = () => {
         <Link className="button2" to="/">cookbook</Link>
         <Link className="button2" to="/map">map</Link>
         <Link className="button2" to="/fitness">fitness</Link>
+        <Link className="button2" to="/hobbies">hobbies</Link>
         <p><Link className="button3" to="/contact">contact</Link></p>
       </div>
 
@@ -41,6 +43,9 @@ const App = () => {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/hobbies">
+          <Hobbies />
         </Route>
         <Route path="/">
           <Cookbook recipes={recipes}/>
