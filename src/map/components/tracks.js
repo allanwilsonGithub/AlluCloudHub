@@ -5,19 +5,21 @@ import { Polyline } from "react-leaflet"
 
 
 const DisplayTracks = () => {
+  console.log(trackData)
+  console.log(trackData.MTBtracks[0].geometry.coordinates[0][0])
+
   return (
     <div>
-      {trackData.tracks.map(track => (
+      {trackData.MTBtracks.map(track => (
           <Polyline positions={
-            track.points.map(point => (
-              [point[1], point[0]]
+            track.geometry.coordinates.map(point => (
+              [point[0], point[1]]
             ))
-            
           }
-            color ={'green'}
+            color ={'#8f3c87'}
             weight = {5}
-            opacity = {0.5}
-            key = {track.track_id}
+            opacity = {1}
+            key = {track.properties.name}
            />
         )
       )}
