@@ -7,6 +7,7 @@ import Fitness from './fitness/components/Fitness'
 import Cookbook from './cookbook/components/Cookbook'
 import Contact from './contact/components/Contact'
 import Hobbies from './hobbies/components/Hobbies'
+import DoIt2021 from './DoIt2021/components/DoIt2021'
 
 import {
   BrowserRouter as Router,
@@ -27,6 +28,7 @@ const App = () => {
   return (
     <Router>
       <div>
+        <Link className="button2" to="/DoIt2021">2021</Link>
         <Link className="button2" to="/">cookbook</Link>
         <Link className="button2" to="/map">map</Link>
         <Link className="button2" to="/fitness">fitness</Link>
@@ -46,6 +48,9 @@ const App = () => {
         </Route>
         <Route path="/hobbies">
           <Hobbies />
+        </Route>
+        <Route path="/DoIt2021">
+          <DoIt2021 />
         </Route>
         <Route path="/">
           <Cookbook recipes={recipes}/>
