@@ -14,6 +14,8 @@ import jetson from '../media/jetson.png'
 import office from '../media/TheOffice.jpg'
 import vikings from '../media/vikings.png'
 import brave_new_world from '../media/brave_new_world.jpg'
+import cobra from '../media/cobra.png'
+import movies from '../media/movies.png'
 
 
 const DoIt2021 = () => {
@@ -31,6 +33,15 @@ const DoIt2021 = () => {
           <a href="https://www.amazon.co.uk/gp/product/B07Z435R7G/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"><img src={blood_on_the_law} width="150" height="225" alt='bloodOnLaw' className="border_2021_books"></img></a>
           <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/"><img src={jetson} width="150" height="225" alt='jetson' className="border_2021_project"></img></a>
           <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv"></img></a>
+          <a href="https://en.wikipedia.org/wiki/Cobra_Kai"><img src={cobra} width="150" height="225" alt='cobra' className="border_2021_tv"></img></a>
+          <br></br>
+          <ReactTooltip id='movies' aria-haspopup='true' >
+              <pre>
+              Love And Monsters<br></br>
+              Sleeper
+              </pre>
+          </ReactTooltip>
+          <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for='movies'></img>
           <hr></hr>
           <h2 className="2021_text" align='left'>IN DEV</h2>
           <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books" data-tip="podcast Audible"></img></a>
@@ -41,6 +52,8 @@ const DoIt2021 = () => {
           <hr></hr>
           <h2 className="2021_text" align='left'>DONE DONE</h2>
           <a href="https://www.imdb.com/title/tt0386676/"><img src={office} width="150" height="225" alt='office' className="border_2021_tv" data-tip="2021-01-01"></img></a>
+          <br></br>
+          <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip=""></img>
         </div>
     )
 }
