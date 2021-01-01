@@ -12,9 +12,28 @@ h2 {
   text-align: center;
 }
 
-.border_2021 {
+.border_2021_books {
   border-width: 5px;
   border-style: solid;
+  border-color: blue;
+}
+
+.border_2021_coding {
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+}
+
+.border_2021_tv {
+  border-width: 5px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.border_2021_project {
+  border-width: 5px;
+  border-style: solid;
+  border-color: purple;
 }
 
 .footer {

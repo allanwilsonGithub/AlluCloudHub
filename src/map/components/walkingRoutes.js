@@ -1,3 +1,5 @@
+
+
 import React from "react"
 import { Marker, Popup } from "react-leaflet"
 import * as alluMapData from "../data/allu-map-data.json"
@@ -6,6 +8,47 @@ import * as alluMapData from "../data/allu-map-data.json"
 import { Icon } from "leaflet"
 
 const hikingIcon = new Icon({
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   iconUrl: './hiking.svg',
   iconSize: [25, 25]
 })
