@@ -12,6 +12,7 @@ import blood_on_the_law from '../media/blood_on_the_law.png'
 import jetson from '../media/jetson.png'
 import office from '../media/TheOffice.jpg'
 import vikings from '../media/vikings.png'
+import brave_new_world from '../media/brave_new_world.jpg'
 
 
 const DoIt2021 = () => {
@@ -30,6 +31,7 @@ const DoIt2021 = () => {
           <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv"></img></a>
           <hr></hr>
           <h2 className="2021_text" align='left'>IN DEV</h2>
+          <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books"></img></a>
           <a href="https://www.amazon.co.uk/Apropos-Nothing-Woody-Allen/dp/1951627342"><img src={woody} width="150" height="225" alt='woody' className="border_2021_books"></img></a>
           <a href="https://fullstackopen.com/en/part7"><img src={fullstack7} width="150" height="225" alt='fullstack7' className="border_2021_coding"></img></a>
           <a href="https://www.imdb.com/title/tt0386676/"><img src={office} width="150" height="225" alt='office' className="border_2021_tv"></img></a>
