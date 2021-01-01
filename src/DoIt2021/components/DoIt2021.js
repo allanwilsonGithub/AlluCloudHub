@@ -20,7 +20,7 @@ const DoIt2021 = () => {
     return (
         <div align='center'>
           <h1>2021</h1>
-          <ReactTooltip />
+          <ReactTooltip type="info" effect="float"/>
           <h2 className="2021_text" align='left'>BACKLOG</h2>
           <a href="https://www.amazon.co.uk/Pillars-Earth-Ken-Follett/dp/0330450867"><img src={pillars} width="150" height="225" alt='pillars' className="border_2021_books"></img></a>
           <a href="https://fullstackopen.com/en/part8"><img src={fullstack8} width="150" height="225" alt='fullstack8' className="border_2021_coding"></img></a>
@@ -33,13 +33,14 @@ const DoIt2021 = () => {
           <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv"></img></a>
           <hr></hr>
           <h2 className="2021_text" align='left'>IN DEV</h2>
-          <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books"></img></a>
+          <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books" data-tip="podcast Audible"></img></a>
           <a href="https://www.amazon.co.uk/Apropos-Nothing-Woody-Allen/dp/1951627342"><img src={woody} width="150" height="225" alt='woody' className="border_2021_books"></img></a>
           <a href="https://fullstackopen.com/en/part7"><img src={fullstack7} width="150" height="225" alt='fullstack7' className="border_2021_coding"></img></a>
-          <a href="https://www.imdb.com/title/tt0386676/"><img src={office} width="150" height="225" alt='office' className="border_2021_tv" data-tip="2021-01-01"></img></a>
+
 
           <hr></hr>
           <h2 className="2021_text" align='left'>DONE DONE</h2>
+          <a href="https://www.imdb.com/title/tt0386676/"><img src={office} width="150" height="225" alt='office' className="border_2021_tv" data-tip="2021-01-01"></img></a>
         </div>
     )
 }
