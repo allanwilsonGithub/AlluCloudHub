@@ -11,6 +11,7 @@ import vermin from '../media/vermin.jpg'
 import blood_on_the_law from '../media/blood_on_the_law.png'
 import jetson from '../media/jetson.png'
 import office from '../media/TheOffice.jpg'
+import vikings from '../media/vikings.png'
 
 
 const DoIt2021 = () => {
@@ -26,6 +27,7 @@ const DoIt2021 = () => {
           <a href="https://www.amazon.co.uk/Vermin-Bill-Graham-ebook/dp/B079YJXF4D/ref=reads_cwrtbar_1"><img src={vermin} width="150" height="225" alt='vermin' className="border_2021_books"></img></a>
           <a href="https://www.amazon.co.uk/gp/product/B07Z435R7G/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"><img src={blood_on_the_law} width="150" height="225" alt='bloodOnLaw' className="border_2021_books"></img></a>
           <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/"><img src={jetson} width="150" height="225" alt='jetson' className="border_2021_project"></img></a>
+          <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv"></img></a>
           <hr></hr>
           <h2 className="2021_text" align='left'>IN DEV</h2>
           <a href="https://www.amazon.co.uk/Apropos-Nothing-Woody-Allen/dp/1951627342"><img src={woody} width="150" height="225" alt='woody' className="border_2021_books"></img></a>
