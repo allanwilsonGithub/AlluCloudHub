@@ -1,4 +1,5 @@
 import React from 'react'
+import arch_diag from '../media/AlluCloudHubDocker.png'
 
 const Projects = () => {
     return (
@@ -8,7 +9,10 @@ const Projects = () => {
           <p className="project_text" align='left'>Minecraft Mods</p>
           <p className="project_text" align='left'>Roblox Mods</p>
           <p className="project_text" align='left'>FullstackOpen2021</p>
-          <p className="project_text" align='left'>Personal Website (www.allanwilson.net)</p>
+          <div>
+            <p className="project_text" align='left'>Personal Website (www.allanwilson.net)</p>
+            <img src={arch_diag} alt="own website" width="1000" height="500"></img>
+          </div>
         </div>
     )
 }
