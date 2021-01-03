@@ -5,8 +5,8 @@ import './alluStyle.css'
 import TheMap from './map/components/TheMap'
 import Fitness from './fitness/components/Fitness'
 import Cookbook from './cookbook/components/Cookbook'
-import Contact from './contact/components/Contact'
-import Hobbies from './hobbies/components/Hobbies'
+import Home from './home/components/Home'
+import Hobbies from './projects/components/Projects'
 import DoIt2021 from './DoIt2021/components/DoIt2021'
 
 import {
@@ -28,12 +28,12 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Link className="button2" to="/DoIt2021">2021</Link>
-        <Link className="button2" to="/">cookbook</Link>
+        <Link className="button2" to="/DoIt2021">2021 K<i>allan</i>ban</Link>
+        <Link className="button2" to="/cookbook">cookbook</Link>
         <Link className="button2" to="/map">map</Link>
         <Link className="button2" to="/fitness">fitness</Link>
-        <Link className="button2" to="/hobbies">hobbies</Link>
-        <p><Link className="button3" to="/contact">contact</Link></p>
+        <Link className="button2" to="/projects">projects</Link>
+        <p><Link className="button3" to="/">...</Link></p>
       </div>
 
       <Switch>
@@ -43,17 +43,17 @@ const App = () => {
         <Route path="/fitness">
           <Fitness />
         </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/hobbies">
+        <Route path="/projects">
           <Hobbies />
         </Route>
         <Route path="/DoIt2021">
           <DoIt2021 />
         </Route>
-        <Route path="/">
+        <Route path="/cookbook">
           <Cookbook recipes={recipes}/>
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
 

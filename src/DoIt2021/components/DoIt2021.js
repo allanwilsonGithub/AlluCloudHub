@@ -21,7 +21,7 @@ import movies from '../media/movies.png'
 const DoIt2021 = () => {
     return (
         <div align='center'>
-          <h1>2021</h1>
+          <h1>2021 K<i>allan</i>ban</h1>
           <ReactTooltip type="info" effect="float"/>
           <h2 className="2021_text" align='left'>BACKLOG</h2>
           <a href="https://www.amazon.co.uk/Pillars-Earth-Ken-Follett/dp/0330450867"><img src={pillars} width="150" height="225" alt='pillars' className="border_2021_books"></img></a>
@@ -32,7 +32,6 @@ const DoIt2021 = () => {
           <a href="https://www.amazon.co.uk/Vermin-Bill-Graham-ebook/dp/B079YJXF4D/ref=reads_cwrtbar_1"><img src={vermin} width="150" height="225" alt='vermin' className="border_2021_books"></img></a>
           <a href="https://www.amazon.co.uk/gp/product/B07Z435R7G/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"><img src={blood_on_the_law} width="150" height="225" alt='bloodOnLaw' className="border_2021_books"></img></a>
           <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/"><img src={jetson} width="150" height="225" alt='jetson' className="border_2021_project"></img></a>
-          <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv"></img></a>
           <a href="https://en.wikipedia.org/wiki/Cobra_Kai"><img src={cobra} width="150" height="225" alt='cobra' className="border_2021_tv"></img></a>
           <br></br>
           <ReactTooltip id='movies' aria-haspopup='true' >
@@ -44,6 +43,7 @@ const DoIt2021 = () => {
           <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for='movies'></img>
           <hr></hr>
           <h2 className="2021_text" align='left'>IN DEV</h2>
+          <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv"></img></a>
           <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books" data-tip="podcast Audible"></img></a>
           <a href="https://www.amazon.co.uk/Apropos-Nothing-Woody-Allen/dp/1951627342"><img src={woody} width="150" height="225" alt='woody' className="border_2021_books"></img></a>
           <a href="https://fullstackopen.com/en/part7"><img src={fullstack7} width="150" height="225" alt='fullstack7' className="border_2021_coding"></img></a>
