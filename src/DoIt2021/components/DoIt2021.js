@@ -16,6 +16,8 @@ import vikings from '../media/vikings.png'
 import brave_new_world from '../media/brave_new_world.jpg'
 import cobra from '../media/cobra.png'
 import movies from '../media/movies.png'
+import silicon_valley from '../media/silicon_valley.png'
+
 
 
 const DoIt2021 = () => {
@@ -33,6 +35,7 @@ const DoIt2021 = () => {
           <a href="https://www.amazon.co.uk/gp/product/B07Z435R7G/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"><img src={blood_on_the_law} width="150" height="225" alt='bloodOnLaw' className="border_2021_books"></img></a>
           <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/"><img src={jetson} width="150" height="225" alt='jetson' className="border_2021_project"></img></a>
           <a href="https://en.wikipedia.org/wiki/Cobra_Kai"><img src={cobra} width="150" height="225" alt='cobra' className="border_2021_tv"></img></a>
+          <a href="https://www.imdb.com/title/tt2575988/"><img src={silicon_valley} width="300" height="200" alt='silicon_valley' className="border_2021_tv"></img></a>
           <br></br>
           <ReactTooltip id='movies' aria-haspopup='true' >
               <pre>
