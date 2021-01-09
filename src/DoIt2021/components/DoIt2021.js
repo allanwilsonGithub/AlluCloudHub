@@ -41,7 +41,11 @@ const DoIt2021 = () => {
               <pre>
               Love And Monsters<br></br>
               Sleeper<br></br>
-              Pieces of a Woman
+              Pieces of a Woman<br></br>
+              The Basilisks<br></br>
+              Carrie<br></br>
+              Elf<br></br>
+              Don't Look Now<br></br>
               </pre>
           </ReactTooltip>
           <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for='movies'></img>
