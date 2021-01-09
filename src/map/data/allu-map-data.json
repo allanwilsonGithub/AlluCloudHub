@@ -193,14 +193,14 @@
       "type": "walkingRoute",
       "properties": {
         "ROUTE_ID": 14,
-        "NAME": "Meiko: Neljaän jarven kierros and other peninsula route",
+        "NAME": "Meiko: peninsula route",
         "DESCRIPTION": "Perfect for swimming in the summer. Nice varied well marked forest route.",
         "URL": "https://www.strava.com/activities/4436543940"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          60.149057, 24.373517
+          60.148710, 24.373602
         ]
       }
     },
@@ -208,14 +208,14 @@
       "type": "walkingRoute",
       "properties": {
         "ROUTE_ID": 15,
-        "NAME": "Meiko: Neljaän jarven kierros and other peninsula route",
-        "DESCRIPTION": "Perfect for swimming in the summer. Nice varied well marked forest route.",
-        "URL": "https://www.strava.com/activities/4436543940"
+        "NAME": "Meiko: Neljaän jarven kierros",
+        "DESCRIPTION": "4km or 8km route. Well marked and lovely walk. 4 lakes and some stairs/bridges.",
+        "URL": "https://www.strava.com/activities/4593097589"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          60.149057, 24.373517
+          60.149455, 24.372161
         ]
       }
     }
