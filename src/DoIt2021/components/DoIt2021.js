@@ -46,12 +46,13 @@ const DoIt2021 = () => {
               Carrie<br></br>
               Elf<br></br>
               Don't Look Now<br></br>
+              Soul<br></br>
+              Bloody Nose, Empty Pockets<br></br>
               </pre>
           </ReactTooltip>
           <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for='movies'></img>
           <hr></hr>
           <h2 className="2021_text" align='left'>IN DEV</h2>
-          <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv" data-tip="s6ep14/20"></img></a>
           <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books" data-tip="podcast Audible"></img></a>
           <a href="https://www.amazon.co.uk/Apropos-Nothing-Woody-Allen/dp/1951627342"><img src={woody} width="150" height="225" alt='woody' className="border_2021_books"></img></a>
           <a href="https://fullstackopen.com/en/part7"><img src={fullstack7} width="150" height="225" alt='fullstack7' className="border_2021_coding"></img></a>
@@ -60,6 +61,7 @@ const DoIt2021 = () => {
           <hr></hr>
           <h2 className="2021_text" align='left'>DONE DONE</h2>
           <a href="https://www.imdb.com/title/tt0386676/"><img src={office} width="150" height="225" alt='office' className="border_2021_tv" data-tip="2021-01-01"></img></a>
+          <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv" data-tip="2021-01-10"></img></a>
           <br></br>
           <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip=""></img>
         </div>
