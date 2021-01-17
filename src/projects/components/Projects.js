@@ -1,6 +1,23 @@
 import React, { useState } from 'react'
-import arch_diag from '../media/AlluCloudHubDocker.png'
 import Jetbot from './Jetbot'
+import CodeKingdoms from './CodeKingdoms'
+import FullStackOpen from './FullStackOpen'
+import PersonalWebsite from './PersonalWebsite'
+
+
+const DisplayProject = (ProjectPage) => {
+  console.log(ProjectPage)
+  if (ProjectPage === 'Jetbot') {
+    return (
+      <p>WOOHOO</p>
+      )
+    } else {
+    console.log(ProjectPage)
+      return (
+        <CodeKingdoms />
+      )
+    }
+}
 
 const Projects = () => {
     const [ ProjectPage, setProjectPage ] = useState('')
@@ -8,16 +25,12 @@ const Projects = () => {
         <div align='center'>
           <h1>Projects</h1>
           <button key="Jetbot" className="button" onClick={() => setProjectPage('Jetbot')}>Nvidia Jetbot AI</button>
-          <p className="project_text" align='left'>Minecraft Mods</p>
-          <p className="project_text" align='left'>Roblox Mods</p>
-          <p className="project_text" align='left'>FullstackOpen2021</p>
-          <div>
-            <p className="project_text" align='left'>Personal Website (www.allanwilson.net)</p>
-            <img src={arch_diag} alt="own website" width="1000" height="500"></img>
-          </div>
-          <Jetbot />
+          <button key="CodeKingdoms" className="button" onClick={() => setProjectPage('CodeKingdoms')}>CodeKingdoms</button>
+          <button key="FullStackOpen" className="button" onClick={() => setProjectPage('FullStackOpen')}>FullstackOpen 2021</button>
+          <button key="PersonalWebsite" className="button" onClick={() => setProjectPage('PersonalWebsite')}>Personal Website</button>
+          <DisplayProject ProjectPage={ProjectPage}/>
         </div>
-    )
-}
+      )
+    }
 
 export default Projects
