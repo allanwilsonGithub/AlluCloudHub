@@ -6,17 +6,25 @@ import PersonalWebsite from './PersonalWebsite'
 
 
 const DisplayProject = (ProjectPage) => {
-  console.log(ProjectPage)
-  if (ProjectPage === 'Jetbot') {
+  if (ProjectPage.ProjectPage === 'Jetbot') {
     return (
-      <p>WOOHOO</p>
-      )
-    } else {
-    console.log(ProjectPage)
-      return (
-        <CodeKingdoms />
-      )
-    }
+      <Jetbot />
+    )
+  } else if (ProjectPage.ProjectPage === 'CodeKingdoms') {
+    return (
+      <CodeKingdoms />
+    )
+  } else if (ProjectPage.ProjectPage === 'FullStackOpen') {
+    return (
+      <FullStackOpen />
+    )
+  } else if (ProjectPage.ProjectPage === 'PersonalWebsite') {
+    return (
+      <PersonalWebsite />
+    )
+  } else {
+    return ""
+  }
 }
 
 const Projects = () => {

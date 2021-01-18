@@ -45,9 +45,19 @@ h2 {
   color: #6B6E70;
 }
 
-.project_text {
+.project_section {
   color: #6B6E70;
   font-size: 30px;
+}
+
+.project_heading {
+  color: #6B6E70;
+  font-size: 40px;
+}
+
+.project_text {
+  color: #6B6E70;
+  font-size: 18px;
 }
 
 .contact_text {
