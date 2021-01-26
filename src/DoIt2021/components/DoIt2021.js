@@ -42,7 +42,6 @@ const DoIt2021 = () => {
               Pieces of a Woman<br></br>
               The Basilisks<br></br>
               Carrie<br></br>
-              Elf<br></br>
               Don't Look Now<br></br>
               Soul<br></br>
               Bloody Nose, Empty Pockets<br></br>
@@ -62,7 +61,14 @@ const DoIt2021 = () => {
           <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv" data-tip="2021-01-10"></img></a>
           <a href="https://en.wikipedia.org/wiki/Cobra_Kai"><img src={cobra} width="150" height="225" alt='cobra' className="border_2021_tv" data-tip="2021-01-20"></img></a>
           <br></br>
-          <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip=""></img>
+          <ReactTooltip id='moviesSeen' aria-haspopup='true' >
+              <pre>
+                Elf<br></br>
+              </pre>
+          </ReactTooltip>
+          <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for="moviesSeen"></img>
+
+
         </div>
     )
 }
