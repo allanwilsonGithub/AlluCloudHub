@@ -237,6 +237,12 @@
         ingredients: '',
         recipe_text: '',
         recipe_image: '13'
+      },
+      {
+        name: 'Kale, Mushroom, and Egg Brunch',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '14'
       }
 
 
