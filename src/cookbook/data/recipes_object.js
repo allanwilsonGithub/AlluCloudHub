@@ -15,7 +15,6 @@
                       + 'Boil pasta, flat linguini or similar\nRemove water and add olive oil and raw eggs (2 or 3 depending on amount of pasta)\n'
                       + 'You can go crazy with the olive oil\nLots of pepper\nNo salt as the bacon is salty enough.',
         recipe_image: ''
-
       },
       {
         name: 'Pippuripihvi',
@@ -243,6 +242,12 @@
         ingredients: '',
         recipe_text: '',
         recipe_image: '14'
+      },
+      {
+        name: 'Possuwokki',
+        ingredients: '',
+        recipe_text: '',
+        recipe_image: '15'
       }
 
 
