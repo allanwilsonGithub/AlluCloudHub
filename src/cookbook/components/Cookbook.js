@@ -8,6 +8,7 @@ const Cookbook = ( {recipes} ) => {
   }
 
   const RenderRecipeButtons = ( {recipes} ) => {
+    recipes.sort((a, b) => a.name.localeCompare(b.name))
     return recipes.map((recipe, index) => <button key={index} className="button" onClick={() => handleRecipeState(index)}>{recipes[index].name}</button>)
   }
 
