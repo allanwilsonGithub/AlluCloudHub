@@ -1,5 +1,3 @@
-
-
 import React from "react"
 import { Marker, Popup } from "react-leaflet"
 import * as alluMapData from "../data/allu-map-data.json"
@@ -7,56 +5,21 @@ import * as alluMapData from "../data/allu-map-data.json"
 
 import { Icon } from "leaflet"
 
-const hikingIcon = new Icon({
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const walkingRoute = new Icon({
   iconUrl: './hiking.svg',
   iconSize: [25, 25]
+})
+
+const bucketListIcon = new Icon({
+  iconUrl: './hiking.svg',
+  iconSize: [50, 50]
 })
 
 const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
     return (
             <div>
-            {alluMapData.walkingRoutes.map(route => (
+            {
+            alluMapData.places_of_interest.map(route => (
                     <Marker
                        key={route.properties.ROUTE_ID}
                        position={[
@@ -66,8 +29,8 @@ const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
                        onClick={() => {
                          setActiveRoute(route)
                        }}
-                       icon={hikingIcon}
-
+                       //icon={route.type}      << I think this should work OR maybe icon={{route.type}} OR icon={route.type}.toString
+                       icon={walkingRoute}
                     />
                 ))}
 
