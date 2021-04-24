@@ -10,7 +10,7 @@ const walkingRoute = new Icon({
   iconSize: [25, 25]
 })
 
-const bucketListIcon = new Icon({
+const bucketList = new Icon({
   iconUrl: './hiking.svg',
   iconSize: [50, 50]
 })
@@ -29,7 +29,8 @@ const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
                        onClick={() => {
                          setActiveRoute(route)
                        }}
-                       icon={walkingRoute}
+                       icon={route.type}     // I want this to be walkingRoute or bucketList depending on this property in alluMapData
+                       // icon={walkingRoute} << This works
                     />
                 ))}
 
