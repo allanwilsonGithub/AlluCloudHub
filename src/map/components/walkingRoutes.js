@@ -29,7 +29,6 @@ const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
                        onClick={() => {
                          setActiveRoute(route)
                        }}
-                       //icon={route.type}      << I think this should work OR maybe icon={{route.type}} OR icon={route.type}.toString
                        icon={walkingRoute}
                     />
                 ))}

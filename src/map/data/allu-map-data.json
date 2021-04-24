@@ -218,6 +218,21 @@
           60.149455, 24.372161
         ]
       }
+    },
+    {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 16,
+        "NAME": "Linlo Island",
+        "DESCRIPTION": "Damn busy car parking area but lovely little area for about 3-4 hour walk. Lots of grillipäikkää",
+        "URL": "https://www.strava.com/activities/5107716247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.032129, 24.422546
+        ]
+      }
     }
   ]
 }
