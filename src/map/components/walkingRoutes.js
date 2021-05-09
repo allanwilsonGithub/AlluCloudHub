@@ -11,8 +11,8 @@ const walkingRoute = new Icon({
 })
 
 const bucketList = new Icon({
-  iconUrl: './hiking.svg',
-  iconSize: [50, 50]
+  iconUrl: './bucketListIcon.svg',
+  iconSize: [60, 45]
 })
 
 const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
@@ -21,7 +21,7 @@ const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
             {
             alluMapData.places_of_interest.map(route => (
                     <Marker
-                       key={route.properties.ROUTE_ID}
+                       key={route.properties.ID}
                        position={[
                          route.geometry.coordinates[0],
                          route.geometry.coordinates[1]
@@ -29,8 +29,7 @@ const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
                        onClick={() => {
                          setActiveRoute(route)
                        }}
-                       //icon={route.type}     // I want this to be walkingRoute or bucketList depending on this property in alluMapData
-                       icon={walkingRoute}
+                       icon={eval(route.type)}
                     />
                 ))}
 
