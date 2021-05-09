@@ -220,6 +220,21 @@
       }
     },
     {
+      "type": "walkingRoute",
+      "properties": {
+        "ROUTE_ID": 16,
+        "NAME": "Uutela",
+        "DESCRIPTION": "Nice area with a really cool abandoned old house and little island. Saw a kyykarme here",
+        "URL": "https://www.strava.com/activities/5267535452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.202400, 25.163434
+        ]
+      }
+    },
+    {
       "type": "bucketList",
       "properties": {
         "ROUTE_ID": 16,

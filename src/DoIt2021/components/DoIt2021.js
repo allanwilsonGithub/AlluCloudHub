@@ -32,19 +32,17 @@ const DoIt2021 = () => {
           <a href="https://fullstackopen.com/en/part9"><img src={fullstack9} width="150" height="225" alt='fullstack9' className="border_2021_coding"></img></a>
           <a href="https://fullstackopen.com/en/part10"><img src={fullstack10} width="150" height="225" alt='fullstack10' className="border_2021_coding"></img></a>
           <a href="https://fullstackopen.com/en/part11"><img src={fullstack11} width="150" height="225" alt='fullstack11' className="border_2021_coding"></img></a>
-          <a href="https://www.amazon.co.uk/gp/product/B07Z435R7G/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"><img src={blood_on_the_law} width="150" height="225" alt='bloodOnLaw' className="border_2021_books"></img></a>
           <a href="https://www.imdb.com/title/tt2575988/"><img src={silicon_valley} width="300" height="200" alt='silicon_valley' className="border_2021_tv"></img></a>
           <br></br>
           <ReactTooltip id='movies' aria-haspopup='true' >
               <pre>
-              Love And Monsters<br></br>
               Sleeper<br></br>
               Pieces of a Woman<br></br>
               The Basilisks<br></br>
               Carrie<br></br>
               Don't Look Now<br></br>
-              Soul<br></br>
               Bloody Nose, Empty Pockets<br></br>
+              Uutelan Kanava walk<br></br>
               </pre>
           </ReactTooltip>
           <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for='movies'></img>
@@ -53,20 +51,24 @@ const DoIt2021 = () => {
           <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/"><img src={jetson} width="150" height="225" alt='jetson' className="border_2021_project"></img></a>
           <a href="hhttps://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523"><img src={brave_new_world} width="150" height="225" alt='brave_new_world' className="border_2021_books" data-tip="podcast Audible"></img></a>
           <a href="https://fullstackopen.com/en/part7"><img src={fullstack7} width="150" height="225" alt='fullstack7' className="border_2021_coding"></img></a>
-          <a href="https://www.amazon.co.uk/Vermin-Bill-Graham-ebook/dp/B079YJXF4D/ref=reads_cwrtbar_1"><img src={vermin} width="150" height="225" alt='vermin' className="border_2021_books"></img></a>
+          <a href="https://www.amazon.co.uk/gp/product/B07Z435R7G/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"><img src={blood_on_the_law} width="150" height="225" alt='bloodOnLaw' className="border_2021_books"></img></a>
           <a href="https://www.amazon.co.uk/Pillars-Earth-Ken-Follett/dp/0330450867"><img src={pillars} width="150" height="225" alt='pillars' className="border_2021_books"></img></a>
-          <a href="https://en.wikipedia.org/wiki/Superstore_(TV_series)"><img src={superstore} width="200" height="200" alt='superstore' className="border_2021_books"></img></a>
+
           <a href="https://store.steampowered.com/app/602320/Train_Valley_2/"><img src={tv2} width="200" height="200" alt='train_valley_2' className="border_2021_books"></img></a>
           <hr></hr>
           <h2 className="2021_text" align='left'>DONE DONE</h2>
+          <a href="https://en.wikipedia.org/wiki/Superstore_(TV_series)"><img src={superstore} width="200" height="200" alt='superstore' className="border_2021_books"></img></a>
           <a href="https://www.imdb.com/title/tt0386676/"><img src={office} width="150" height="225" alt='office' className="border_2021_tv" data-tip="2021-01-01"></img></a>
           <a href="https://www.imdb.com/title/tt2306299/"><img src={vikings} width="150" height="225" alt='vikings' className="border_2021_tv" data-tip="2021-01-10"></img></a>
           <a href="https://en.wikipedia.org/wiki/Cobra_Kai"><img src={cobra} width="150" height="225" alt='cobra' className="border_2021_tv" data-tip="2021-01-20"></img></a>
           <a href="https://www.amazon.co.uk/Apropos-Nothing-Woody-Allen/dp/1951627342"><img src={woody} width="150" height="225" alt='woody' className="border_2021_books"></img></a>
+          <a href="https://www.amazon.co.uk/Vermin-Bill-Graham-ebook/dp/B079YJXF4D/ref=reads_cwrtbar_1"><img src={vermin} width="150" height="225" alt='vermin' className="border_2021_books"></img></a>
           <br></br>
           <ReactTooltip id='moviesSeen' aria-haspopup='true' >
               <pre>
                 Elf<br></br>
+                Soul<br></br>
+                Love And Monsters<br></br>
               </pre>
           </ReactTooltip>
           <img src={movies} width="120" height="100" alt='movies' className="border_2021_movies" data-tip data-for="moviesSeen"></img>

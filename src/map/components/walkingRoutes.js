@@ -29,8 +29,8 @@ const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
                        onClick={() => {
                          setActiveRoute(route)
                        }}
-                       icon={route.type}     // I want this to be walkingRoute or bucketList depending on this property in alluMapData
-                       // icon={walkingRoute} << This works
+                       //icon={route.type}     // I want this to be walkingRoute or bucketList depending on this property in alluMapData
+                       icon={walkingRoute}
                     />
                 ))}
 
