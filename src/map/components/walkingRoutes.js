@@ -15,6 +15,11 @@ const bucketList = new Icon({
   iconSize: [60, 45]
 })
 
+const fishingSpot = new Icon({
+  iconUrl: './fishingSpot.svg',
+  iconSize: [60, 45]
+})
+
 const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
     return (
             <div>

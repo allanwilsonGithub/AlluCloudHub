@@ -278,6 +278,21 @@
           62.054572, 23.828870
         ]
       }
+    },
+    {
+      "type": "fishingSpot",
+      "properties": {
+        "ID": 19,
+        "NAME": "Oittaa, fishing spot",
+        "DESCRIPTION": "Only small but nice walk to here",
+        "URL": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.242231, 24.671171
+        ]
+      }
     }
   ]
 }
