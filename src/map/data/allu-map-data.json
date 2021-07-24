@@ -312,7 +312,7 @@
     {
       "type": "fishingSpot",
       "properties": {
-        "ID": 20,
+        "ID": 21,
         "NAME": "Sampo's favourite fishing spot",
         "DESCRIPTION": "",
         "URL": ""
@@ -321,6 +321,21 @@
         "type": "Point",
         "coordinates": [
           66.686708, 25.406970
+        ]
+      }
+    },
+        {
+      "type": "fishingSpot",
+      "properties": {
+        "ID": 22,
+        "NAME": "Iso Hiekka",
+        "DESCRIPTION": "Best mökki and sauna location ever",
+        "URL": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.669996, 25.348336
         ]
       }
     }
