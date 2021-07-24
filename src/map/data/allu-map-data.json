@@ -324,7 +324,7 @@
         ]
       }
     },
-        {
+    {
       "type": "fishingSpot",
       "properties": {
         "ID": 22,
@@ -338,6 +338,22 @@
           66.669996, 25.348336
         ]
       }
+    },
+    {
+      "type": "fishingSpot",
+      "properties": {
+        "ID": 22,
+        "NAME": "Lehtojärvi",
+        "DESCRIPTION": "Lovely shallow beach for swimming and lots of fish. Quite shallow for big fish",
+        "URL": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.638901, 25.335331
+        ]
+      }
     }
   ]
 }
+
