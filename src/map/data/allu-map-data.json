@@ -308,6 +308,21 @@
           66.700411, 25.627382
         ]
       }
+    },
+    {
+      "type": "fishingSpot",
+      "properties": {
+        "ID": 20,
+        "NAME": "Sampo's favourite fishing spot",
+        "DESCRIPTION": "",
+        "URL": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.686708, 25.406970
+        ]
+      }
     }
   ]
 }
