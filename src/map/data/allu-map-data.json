@@ -293,6 +293,21 @@
           60.242231, 24.671171
         ]
       }
+    },
+    {
+      "type": "fishingSpot",
+      "properties": {
+        "ID": 20,
+        "NAME": "Kuoksalampi, fishing spot",
+        "DESCRIPTION": "10 ahven caught 9pm",
+        "URL": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.700411, 25.627382
+        ]
+      }
     }
   ]
 }
