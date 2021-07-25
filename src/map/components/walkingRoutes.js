@@ -20,6 +20,12 @@ const fishingSpot = new Icon({
   iconSize: [60, 45]
 })
 
+const adventurePark = new Icon({
+  iconUrl: './zipline.svg',
+  iconSize: [60, 45]
+})
+
+
 const DisplayWalkingRoutes = ( {activeRoute, setActiveRoute} ) => {
     return (
             <div>

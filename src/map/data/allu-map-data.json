@@ -353,6 +353,21 @@
           66.638901, 25.335331
         ]
       }
+    },
+    {
+      "type": "adventurePark",
+      "properties": {
+        "ID": 23,
+        "NAME": "Rovaniemi, Huima",
+        "DESCRIPTION": "Sampo and Daddy. We did all the tracks when Sampo was exactly 140cms tall .. so minimum height",
+        "URL": "https://santasport.fi/vapaa-aika-ja-hyvinvointi/seikkailupuisto-huima/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.497750, 25.773326
+        ]
+      }
     }
   ]
 }
