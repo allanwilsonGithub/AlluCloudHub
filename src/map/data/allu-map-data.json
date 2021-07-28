@@ -368,6 +368,21 @@
           66.497750, 25.773326
         ]
       }
+    },
+        {
+      "type": "adventurePark",
+      "properties": {
+        "ID": 24,
+        "NAME": "Levi Adventure Park",
+        "DESCRIPTION": "LOTS of lovely ziplines! Still to try this one",
+        "URL": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.786892, 24.818686
+        ]
+      }
     }
   ]
 }
