@@ -37,6 +37,8 @@ const DoIt2021 = () => {
           <ReactTooltip id='movies' aria-haspopup='true' >
               <pre>
               Sleeper<br></br>
+              The Last Duel<br></br>
+              The Green Night<br></br>
               Pieces of a Woman<br></br>
               The Basilisks<br></br>
               Carrie<br></br>
